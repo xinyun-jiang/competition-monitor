@@ -24,7 +24,7 @@
 
 ---
 
-## 关注方向
+## 关键词筛选
 
 当前监控以下 5 个关键词的比赛信息：
 
@@ -59,117 +59,6 @@
 | 08:00 | 早间自动抓取 |
 | 20:00 | 晚间自动抓取 |
 
-运行流程：
-
-```
-GitHub Actions 触发
-  ↓
-安装 Python 依赖
-  ↓
-从 GitHub Secrets 读取 API 密钥，生成 .env
-  ↓
-运行 main.py 抓取数据
-  ↓
-将更新后的数据提交回仓库
-  ↓
-Streamlit Cloud 自动同步最新数据
-  ↓
-网站展示最新比赛信息
-```
-
----
-
-## 项目结构
-
-```
-.
-├── .github/workflows/daily.yml   # GitHub Actions 定时任务配置
-├── data/
-│   ├── monitor.db                # SQLite 数据库（比赛信息）
-│   ├── articles/                 # 网页正文快照
-│   └── run.log                   # 运行日志
-├── sources/                      # 源文件处理模块
-├── article.py                    # 文章抓取与解析
-├── config.py                     # 关键词和配置
-├── db.py                         # 数据库操作
-├── extract.py                    # 信息提取
-├── main.py                       # 主程序入口
-├── normalize.py                  # 数据标准化
-├── notify.py                     # 消息推送
-├── streamlit.py                  # 网站前端（Streamlit）
-├── requirements.txt              # Python 依赖
-├── sources_seed_pages.txt        # 公告列表页种子
-├── sources_seed_urls.txt         # 单篇 URL 种子
-└── README.md                     # 本文件
-```
-
----
-
-## 输出字段
-
-每条比赛记录包含：
-
-- 比赛名称
-- 报名开始时间
-- 报名截止时间（`confirmed` / `unknown`）
-- 参赛对象和要求
-- 比赛方向关键词
-- 奖项和奖金
-- 比赛简介
-- 来源和原文链接
-- 本地 HTML 快照
-
----
-
-## 本地开发（可选）
-
-如需本地调试：
-
-```bash
-# 1. 克隆仓库
-git clone https://github.com/xinyunj933-hash/competition-monitor.git
-cd competition-monitor
-
-# 2. 安装依赖
-pip install -r requirements.txt
-
-# 3. 配置环境变量
-# 在项目根目录创建 .env 文件，填入你的 API 密钥
-# 参考 .env.example（如需）
-
-# 4. 手动运行抓取
-python main.py
-
-# 5. 本地预览网站
-streamlit run streamlit.py
-```
-
----
-
-## 技术栈
-
-- **爬虫与数据处理**：Python + SQLite
-- **搜索接口**：百度千帆 AI Search
-- **信息提取**：智谱 GLM-4-Flash
-- **定时任务**：GitHub Actions
-- **前端展示**：Streamlit
-- **托管平台**：Streamlit Cloud（免费）
-
----
-
-## 数据备份
-
-数据库和快照文件位于 `data/` 目录：
-
-```
-data/monitor.db      # 比赛数据库
-data/articles/      # 网页快照
-data/run.log        # 运行日志
-```
-
-GitHub Actions 每次运行后会自动将更新提交回仓库，因此数据天然有 Git 版本记录。如需额外备份，直接下载 `data/` 文件夹即可。
-
----
 
 ## 部署说明
 
