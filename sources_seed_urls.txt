@@ -1,0 +1,4 @@
+# 每行一个手动维护的单篇文章/公告 URL，可选用 Tab 跟标题
+# https://example.com/notice/123	比赛标题
+
+https://stcsm.sh.gov.cn/affairs_affairs/a35e7ad07bcd4bae8c57dc77f20e0e62.html	全国颠覆性技术创新大赛

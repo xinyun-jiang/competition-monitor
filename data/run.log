@@ -1,0 +1,73 @@
+2026-08-13 13:43:19,945 [INFO] ========== 本轮开始 ==========
+2026-08-13 13:43:19,967 [INFO] seed_urls 来源发现 1 条
+2026-08-13 13:43:22,619 [INFO] seed_pages 来源发现 2 条
+2026-08-13 13:43:22,645 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-13 13:43:37,533 [INFO] qianfan_search 来源发现 13 条
+2026-08-13 13:43:37,801 [INFO] 多来源发现完成，本轮入队/刷新 16 条；队列状态: {'resolved': 16}
+2026-08-13 13:43:38,274 [WARNING] 网页正文过短: https://stcsm.sh.gov.cn/affairs_affairs/a35e7ad07bcd4bae8c57dc77f20e0e62.html
+2026-08-13 13:43:49,175 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-13 13:43:49,206 [INFO] 比赛已过期或缺少有效截止日期: 第三届新能源与储能协同发展创新大赛（2026） deadline=2026-07-15
+2026-08-13 13:43:50,617 [INFO] 初筛未通过: 绿电奔涌入网 绿色能源托举中国AI全球竞争力_数字快讯_数字中国建设峰会
+2026-08-13 13:44:08,597 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-13 13:44:08,639 [INFO] 发现比赛: AI 社会科学家研究挑战赛
+2026-08-13 13:44:25,184 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-13 13:44:25,223 [INFO] 发现比赛: 2026 AI模型智能体创新大赛
+2026-08-13 13:44:25,865 [WARNING] 网页正文过短: https://www.gxnews.com.cn/staticpages/20260811/newgx6a7b017f-21979876.shtml
+2026-08-13 13:44:37,947 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-13 13:44:37,997 [INFO] 发现比赛: 2026 AI模型智能体创新大赛
+2026-08-13 13:44:50,295 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-13 13:44:50,334 [INFO] 发现比赛: 2026年江西省“振兴杯”电池制造工（电池(组）装配工）职业技能竞赛
+2026-08-13 13:45:10,106 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-13 13:45:10,146 [INFO] 发现比赛: 中国电信星辰杯・高校AI算子开发挑战赛
+2026-08-13 13:45:20,877 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-13 13:45:20,918 [INFO] 发现比赛: 世界人工智能开源大赛（GOAI）
+2026-08-13 13:45:33,425 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-13 13:45:33,693 [INFO] 发现比赛: 2026第二届“湾区杯”网络安全大赛
+2026-08-13 13:45:47,349 [INFO] 初筛未通过: ã€�å¤§èµ›é€šçŸ¥ã€‘å·¥ä¿¡éƒ¨å…³äº�ä¸¾åŠ�ç¬¬å››å±Šèƒ½æº�ç”µå­�äº§ä¸šåˆ›æ–°å¤§èµ›æš¨ç¬¬äº”å±Šå…ˆè¿›å‚¨èƒ½æŠ€æœ¯åˆ›æ–°æŒ‘æˆ˜èµ›çš„é€šçŸ¥
+2026-08-13 13:45:47,376 [INFO] 解析处理完成，本轮解析 12 条；队列状态: {'processed': 12, 'resolved': 4}
+2026-08-13 13:45:49,122 [INFO] 已推送 6 个新比赛
+2026-08-13 13:45:49,122 [INFO] ========== 本轮结束 ==========
+2026-08-14 12:59:16,961 [INFO] ========== 本轮开始 ==========
+2026-08-14 12:59:16,987 [INFO] seed_urls 来源发现 1 条
+2026-08-14 12:59:18,839 [INFO] seed_pages 来源发现 1 条
+2026-08-14 12:59:18,847 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-14 12:59:28,051 [INFO] qianfan_search 来源发现 13 条
+2026-08-14 12:59:28,200 [INFO] 多来源发现完成，本轮入队/刷新 15 条；队列状态: {'processed': 12, 'resolved': 4}
+2026-08-14 12:59:39,513 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-14 12:59:39,566 [INFO] 发现比赛: 储云杯创新创业大赛暨全场景开放应用大赛
+2026-08-14 12:59:54,282 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-14 12:59:54,320 [INFO] 发现比赛: 2026此芯科技Agentic AI开发者大赛
+2026-08-14 13:00:11,141 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-14 13:00:11,183 [INFO] 发现比赛: 第二届“万方数据杯”智能体大赛
+2026-08-14 13:00:17,928 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-14 13:00:17,965 [INFO] 发现比赛: 第九届全国青少年人工智能创新挑战赛
+2026-08-14 13:00:17,976 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 16}
+2026-08-14 13:00:19,508 [INFO] 已推送 4 个新比赛
+2026-08-14 13:00:19,508 [INFO] ========== 本轮结束 ==========
+2026-08-18 13:49:35,942 [INFO] ========== 本轮开始 ==========
+2026-08-18 13:49:35,972 [INFO] seed_urls 来源发现 1 条
+2026-08-18 13:49:39,777 [INFO] seed_pages 来源发现 1 条
+2026-08-18 13:49:39,785 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-18 13:49:53,778 [INFO] qianfan_search 来源发现 13 条
+2026-08-18 13:49:53,924 [INFO] 多来源发现完成，本轮入队/刷新 15 条；队列状态: {'processed': 16, 'resolved': 10}
+2026-08-18 13:50:09,290 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 13:50:09,349 [INFO] 发现比赛: 第四届能源电子产业创新大赛暨第五届先进储能技术创新挑战赛
+2026-08-18 13:50:21,861 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 13:50:21,897 [INFO] 发现比赛: 两岸（青岛）青年AI作品创作大赛
+2026-08-18 13:50:44,027 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 13:50:44,100 [INFO] 发现比赛: 第三届“AI宁波”人工智能赋能产业大赛
+2026-08-18 13:50:58,085 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 13:50:58,140 [INFO] 发现比赛: 2026长三角国际人工智能应用场景科创大赛
+2026-08-18 13:51:00,412 [INFO] 初筛未通过: æ¯”èµ›æŠ¥å��ï½œåˆ›ä¸šå�¯èˆªï¼Œèµ¢åœ¨è�”æ¹¾ï¼�è�”æ¹¾åŒºç¬¬å››å±Šåˆ›æ–°åˆ›ä¸šå¤§èµ›å…¨é�¢å�¯åŠ¨ï¼Œå››å¤§èµ›é�“ç­‰ä½ æ�¥æˆ˜ï¼�
+2026-08-18 13:51:15,057 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 13:51:15,068 [INFO] 比赛已过期或缺少有效截止日期: 第二届“储云杯”创新创业大赛暨全场景开放应用大赛 deadline=2026-07-31
+2026-08-18 13:51:28,197 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 13:51:28,256 [INFO] 发现比赛: 第十五届中国创新创业大赛“AI+工程机械”专业赛
+2026-08-18 13:51:38,908 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 13:51:38,926 [INFO] 比赛已过期或缺少有效截止日期: 第二届全国“AI+能源”大学生科技创新竞赛 deadline=2026-08-15
+2026-08-18 13:51:39,628 [WARNING] 网页正文过短: https://www.gz.gov.cn/ysgz/xwdt/ysdt/content/mpost_10958569.html
+2026-08-18 13:51:55,655 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 13:51:55,711 [INFO] 发现比赛: 第十五届中国创新创业大赛“AI+工程机械”专业赛
+2026-08-18 13:51:55,729 [INFO] 解析处理完成，本轮解析 10 条；队列状态: {'processed': 26}
+2026-08-18 13:51:58,129 [INFO] 已推送 5 个新比赛
+2026-08-18 13:51:58,129 [INFO] ========== 本轮结束 ==========

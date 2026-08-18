@@ -1,0 +1,7 @@
+# 每行一个手动维护的列表页/公告栏目 URL，系统会从页面链接中筛选疑似比赛公告
+# https://example.com/news/notice
+
+https://ai.xm.gov.cn/
+https://csee.org.cn/portal/xfptzgg/
+https://www.digitalchina.gov.cn/
+https://www.miit.gov.cn/zwgk/
