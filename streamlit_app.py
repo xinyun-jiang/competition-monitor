@@ -4,12 +4,10 @@ import csv
 import io
 import sqlite3
 from pathlib import Path
-
 import streamlit as st
-
 import config
 
-st.set_page_config(page_title="比赛信息监控", page_icon="🏆", layout="wide")
+st.set_page_config(page_title="Competition Monitor", layout="wide")
 
 
 def load_competitions(active_only: bool, keyword: str):
@@ -49,8 +47,8 @@ def export_csv(items):
     return output.getvalue().encode("utf-8-sig")
 
 
-st.title("🏆 比赛信息监控")
-st.caption("数据来自本地 SQLite；爬虫由 main.py 定时运行，本页面只负责查看和导出。")
+st.title("比赛信息")
+st.caption("本页面只负责查看和导出。")
 
 with st.sidebar:
     st.header("筛选")
