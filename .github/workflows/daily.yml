@@ -1,0 +1,56 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 每天北京时间上午 10 点自动跑
+  workflow_dispatch:        # 允许手动点按钮触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          # ===== 敏感信息（从 GitHub Secrets 读取）=====
+          echo "LLM_API_KEY=${{ secrets.LLM_API_KEY }}" >> .env
+          echo "QIANFAN_API_KEY=${{ secrets.QIANFAN_API_KEY }}" >> .env
+          echo "PUSHPLUS_TOKEN=${{ secrets.PUSHPLUS_TOKEN }}" >> .env
+          echo "SERVERCHAN_KEY=${{ secrets.SERVERCHAN_KEY }}" >> .env
+          
+          # ===== 普通配置（直接写死）=====
+          echo "LLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4" >> .env
+          echo "LLM_MODEL=glm-4-flash" >> .env
+          echo "QIANFAN_MAX_QUERIES_PER_RUN=15" >> .env
+          echo "QIANFAN_RESULTS_PER_QUERY=5" >> .env
+          echo "QIANFAN_RECENCY=month" >> .env
+          echo "ENABLED_SOURCES=qianfan_search,seed_pages,seed_urls" >> .env
+          echo "MAX_ARTICLE_AGE_DAYS=3650" >> .env
+          echo "MAX_RESULTS_PER_RUN=40" >> .env
+          echo "MAX_RESOLVE_PER_RUN=12" >> .env
+          echo "CANDIDATE_TTL_HOURS=36" >> .env
+          echo "DEADLINE_GRACE_DAYS=0" >> .env
+
+      - name: Run main script
+        run: python main.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "auto: update data $(date +%Y-%m-%d)"
+          git push
