@@ -78,7 +78,7 @@ else:
             left, right = st.columns(2)
             with left:
                 st.write(f"**级别：** {item.get('level') or '不确定'}")
-                st.write(f"**报名时间：** {item.get('register_start') or '?'} ~ {deadline}")
+                st.write(f"**报名时间ddl：** {deadline}")
                 st.write(f"**参赛对象：** {item.get('participant_type') or '不确定'}")
                 st.write(f"**关键词：** {item.get('keywords') or '-'}")
                 st.write(f"**来源：** {item.get('account') or '-'}")
