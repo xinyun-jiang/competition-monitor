@@ -1,4 +1,4 @@
-<img width="2240" height="1199" alt="image" src="https://github.com/user-attachments/assets/8bd94e73-a3c8-4933-ac25-8d5164b34b3f" /># 比赛信息监控
+# 比赛信息监控
 
 这是一个自动抓取并展示 **智能体、电池、AI、储能、寿命预测** 相关比赛信息的在线网站，数据每日自动更新，无需手动运行代码，打开网页即可查看最新比赛信息。
 
