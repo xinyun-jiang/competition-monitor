@@ -8,7 +8,7 @@
 
 ## 在线访问
 
-🔗 **网站地址**：`https://competitionmonitor.streamlit.app`
+🔗 **网站地址**：https://competitionmonitor.streamlit.app
 
 > 部署在 [Streamlit Cloud](https://streamlit.io/cloud) 上
 
