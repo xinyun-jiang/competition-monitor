@@ -59,6 +59,7 @@ with st.sidebar:
     keyword = st.text_input("搜索", placeholder="例如：电池、储能、智能体")
     active_only = st.checkbox("只看未过期比赛", value=True)
     if st.button("刷新数据", use_container_width=True):
+        st.toast("🔄刷新中，请稍候……",icon="⏳")
         st.rerun()
 
 items = load_competitions(active_only, keyword.strip())
