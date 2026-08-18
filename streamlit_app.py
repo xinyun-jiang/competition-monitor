@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-"""本地比赛信息查看页面。启动：streamlit run streamlit_app.py"""
 import csv
 import io
 import sqlite3
@@ -48,7 +47,7 @@ def export_csv(items):
 
 
 st.title("比赛信息")
-st.caption("本页面只负责查看和导出。")
+st.caption("本页面只负责查看和导出")
 
 with st.sidebar:
     st.header("筛选")
