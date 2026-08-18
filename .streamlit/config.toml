@@ -1,6 +1,6 @@
 [theme]
 primaryColor = "#536aa5"        # 按钮、链接、强调色
 backgroundColor = "#FFFFFF"     # 主背景（深色模式）
-secondaryBackgroundColor = "#96b5cbfd"   # 侧边栏、卡片背景
+secondaryBackgroundColor = "#d3e5f1fd"   # 侧边栏、卡片背景
 textColor = "#31333F"           # 文字颜色
 font = "sans serif"             # 字体
