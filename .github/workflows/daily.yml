@@ -2,7 +2,8 @@ name: Daily Data Update
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # 每天北京时间上午 10 点自动跑
+    - cron: '0 2 * * *'   
+    - cron: '0 12 * * *' # 每天北京时间早上10点和晚上8点自动跑
   workflow_dispatch:        # 允许手动点按钮触发
 
 permissions:
