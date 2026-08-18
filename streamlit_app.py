@@ -8,6 +8,11 @@ import config
 
 st.set_page_config(page_title="Competition Monitor", layout="wide")
 
+def fmt_date(d):
+    """把数据库里的 null/None/空字符串统一显示为'未知'"""
+    if not d or str(d).strip().lower() in ("null", "none", "undefined", ""):
+        return "未知"
+    return d
 
 def load_competitions(active_only: bool, keyword: str):
     db_path = Path(config.DB_PATH)
@@ -73,12 +78,12 @@ else:
     )
     for item in items:
         name = item.get("name") or item.get("title") or "未命名比赛"
-        deadline = item.get("deadline") or "未明确，需人工核实"
+        deadline = fmt_date(item.get("deadline"))
         with st.expander(f"{name} | 截止：{deadline}"):
             left, right = st.columns(2)
             with left:
                 st.write(f"**级别：** {item.get('level') or '不确定'}")
-                st.write(f"**报名时间ddl：** {deadline}")
+                st.write(f"**报名截止：** {deadline}")
                 st.write(f"**参赛对象：** {item.get('participant_type') or '不确定'}")
                 st.write(f"**关键词：** {item.get('keywords') or '-'}")
                 st.write(f"**来源：** {item.get('account') or '-'}")
