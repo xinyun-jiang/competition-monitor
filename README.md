@@ -1,6 +1,6 @@
-# 比赛信息监控后端
+# 比赛信息监控
 
-这是一个纯后端、无人值守运行的比赛信息爬虫。它只关注以下 5 个方向：
+这是一个比赛信息爬虫。它只关注以下 5 个方向：
 
 - 智能体
 - 电池
@@ -8,9 +8,9 @@
 - 储能
 - 寿命预测
 
-系统只保留比赛、大赛、竞赛、挑战赛相关信息。搜索使用百度千帆，信息提取使用智谱。已过报名截止日期的信息会被过滤；没有明确截止日期的真实比赛可以保留，但会标记为“未明确（需人工核实）”。
+系统只保留比赛、大赛、竞赛、挑战赛相关信息。搜索使用百度千帆，信息提取使用智谱。已过报名截止日期的信息会被过滤；没有明确截止日期的真实比赛可以保留，但会标记为“未明确”。
 
-## 当前抓取流程
+## 抓取流程
 
 ```text
 搜索来源
@@ -31,8 +31,6 @@ LLM 判断是否是真正的比赛并提取字段
   └── 没有明确截止日期：入库，标记 unknown，推送时提醒人工核实
   ↓
 SQLite 去重保存
-  ↓
-PushPlus 或 Server酱推送新增比赛
 ```
 
 ## 数据来源
@@ -46,54 +44,7 @@ ENABLED_SOURCES=qianfan_search,seed_pages,seed_urls
 - `seed_urls`：读取 `sources_seed_urls.txt` 中的单篇 URL；
 - `seed_pages`：读取 `sources_seed_pages.txt` 中的公告列表页；
 - `qianfan_search`：调用百度千帆 AI Search 搜索普通网页，默认唯一自动搜索来源；
-
-## 下载到本地后必须修改的内容
-
-下载或复制项目后，先复制配置模板：
-
-```bash
-cp .env.example .env
-```
-
-然后打开本地 `.env`，至少填写：
-
-```env
-LLM_API_KEY=你的智谱API密钥
-QIANFAN_API_KEY=你的百度千帆API密钥
-```
-
-如果需要自动推送，还要填写以下其中一个：
-
-```env
-PUSHPLUS_TOKEN=你的PushPlus密钥
-# 或
-SERVERCHAN_KEY=你的Server酱密钥
-```
-
-不要把真实密钥写入 Python 代码、README、截图或公开仓库。`.env` 只保存在本地，并建议设置为仅当前用户可读。
-
-## 配置
-
-复制配置模板：
-
-```bash
-cp .env.example .env
-```
-
-至少配置：
-
-```env
-LLM_API_KEY=你的智谱API密钥
-LLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4
-LLM_MODEL=glm-4-flash
-
-QIANFAN_API_KEY=你的千帆搜索密钥
-
-PUSHPLUS_TOKEN=你的PushPlus密钥
-# 或使用 SERVERCHAN_KEY=你的Server酱密钥
-```
-
-不要把 `.env` 提交到公开仓库。
+- 
 
 ## 本地运行
 
@@ -114,51 +65,6 @@ python main.py
 ```bash
 PYTHONPATH=.python-packages python3 main.py
 ```
-
-## 本地查看页面
-
-安装 Streamlit：
-
-```bash
-pip install streamlit
-```
-
-启动查看页面：
-
-```bash
-streamlit run streamlit_app.py
-```
-
-浏览器打开命令行显示的本地地址，通常是 `http://localhost:8501`。页面直接读取 `data/monitor.db`，支持搜索、只看未过期比赛、查看详情和下载 CSV。先运行 `main.py` 抓取数据，再打开页面查看。
-
-日志在：
-
-```text
-data/run.log
-data/cron.log
-```
-
-数据库和文章快照在：
-
-```text
-data/monitor.db
-data/articles/
-```
-
-## Docker 运行
-
-```bash
-docker compose build
-docker compose up -d
-```
-
-查看日志：
-
-```bash
-docker compose logs -f
-```
-
-当前 Compose 只有一个 `monitor` 容器，不再提供网站、FastAPI 接口或登录系统。
 
 ## 搜索方式
 
