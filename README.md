@@ -8,9 +8,9 @@
 
 ## 在线访问
 
-🔗 **网站地址**：`https://你的项目名.streamlit.app`
+🔗 **网站地址**：`https://competitionmonitor.streamlit.app`
 
-> 部署在 [Streamlit Cloud](https://streamlit.io/cloud) 上，免费、免维护，任何人都能打开。
+> 部署在 [Streamlit Cloud](https://streamlit.io/cloud) 上
 
 ---
 
