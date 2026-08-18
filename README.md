@@ -60,8 +60,7 @@
 
 1. **代码托管**：GitHub（免费）
 2. **定时运行**：GitHub Actions（免费额度足够每日两次运行）
-3. **敏感信息**：存储在 GitHub Secrets（API Key 不上传代码）
-4. **网站托管**：Streamlit Cloud（免费，自动同步 GitHub 仓库）
+3. **网站托管**：Streamlit Cloud（免费，自动同步 GitHub 仓库）
 
 如需重新部署：
 
