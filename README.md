@@ -10,7 +10,8 @@
 > 部署在 [Streamlit Cloud](https://streamlit.io/cloud) 上
 
 网站界面截图示例：
-<img width="2240" height="1199" alt="image" src="https://github.com/user-attachments/assets/3de9b65d-5daa-4939-ac3f-8aa795c69e4c" />
+<img width="2240" height="1199" alt="image" src="https://github.com/user-attachments/assets/c832ee97-883f-4cd1-b6ac-ead494575022" />
+
 
 
 ## 功能特点
