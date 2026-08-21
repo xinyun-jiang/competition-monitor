@@ -139,3 +139,24 @@
 2026-08-21 03:02:07,200 [INFO] 解析处理完成，本轮解析 0 条；队列状态: {'processed': 29}
 2026-08-21 03:02:07,200 [INFO] 本轮没有新比赛，不推送
 2026-08-21 03:02:07,200 [INFO] ========== 本轮结束 ==========
+2026-08-21 12:22:34,607 [INFO] ========== 本轮开始 ==========
+2026-08-21 12:22:34,610 [INFO] seed_urls 来源发现 1 条
+2026-08-21 12:22:45,105 [INFO] seed_pages 来源发现 1 条
+2026-08-21 12:22:45,108 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-21 12:23:05,077 [INFO] qianfan_search 来源发现 11 条
+2026-08-21 12:23:05,089 [INFO] 多来源发现完成，本轮入队/刷新 13 条；队列状态: {'processed': 29, 'resolved': 6}
+2026-08-21 12:23:24,713 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 12:23:24,724 [INFO] 发现比赛: 2026全国科算智药创新创业大赛
+2026-08-21 12:23:38,541 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 12:23:38,544 [INFO] 比赛已过期或缺少有效截止日期: SDG马拉松创新大赛 deadline=2025-08-22
+2026-08-21 12:23:42,729 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 12:23:42,731 [INFO] LLM 判定非比赛: 微软、亚马逊股价飙升，AI应用板块掀涨停潮！高手怎么看8月行情？
+2026-08-21 12:23:45,981 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 12:23:45,983 [INFO] LLM 判定非比赛: 海外项目占比超三成！第二届“储云杯”吸引全球科创目光
+2026-08-21 12:24:04,229 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 12:24:04,231 [INFO] 比赛已过期或缺少有效截止日期: 第三届“福聚英才”全球创新创业大赛・“星云杯”新能源产业链分站赛 deadline=2026-08-15
+2026-08-21 12:24:15,271 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 12:24:15,275 [INFO] 发现比赛: 2025—2026学年全国青少年劳动技能与智能设计大赛
+2026-08-21 12:24:15,276 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 35}
+2026-08-21 12:24:17,426 [INFO] 已推送 2 个新比赛
+2026-08-21 12:24:17,426 [INFO] ========== 本轮结束 ==========
