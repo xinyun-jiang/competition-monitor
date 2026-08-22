@@ -182,3 +182,26 @@
 2026-08-22 02:54:43,281 [INFO] 解析处理完成，本轮解析 8 条；队列状态: {'processed': 43}
 2026-08-22 02:54:46,291 [INFO] 已推送 4 个新比赛
 2026-08-22 02:54:46,291 [INFO] ========== 本轮结束 ==========
+2026-08-22 12:16:01,854 [INFO] ========== 本轮开始 ==========
+2026-08-22 12:16:01,858 [INFO] seed_urls 来源发现 1 条
+2026-08-22 12:16:10,357 [INFO] seed_pages 来源发现 1 条
+2026-08-22 12:16:10,361 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-22 12:16:30,426 [INFO] qianfan_search 来源发现 19 条
+2026-08-22 12:16:30,445 [INFO] 多来源发现完成，本轮入队/刷新 21 条；队列状态: {'processed': 43, 'resolved': 11}
+2026-08-22 12:16:33,377 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874102705469109341&wfr=spider&for=pc
+2026-08-22 12:16:35,222 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874048380178466040&wfr=spider&for=pc
+2026-08-22 12:16:58,232 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 12:16:58,245 [INFO] 发现比赛: 1010数字人节全球智能体大赛
+2026-08-22 12:17:00,087 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874010912904178428&wfr=spider&for=pc
+2026-08-22 12:17:01,867 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874033218166629300&wfr=spider&for=pc
+2026-08-22 12:17:03,709 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874133376610470117&wfr=spider&for=pc
+2026-08-22 12:17:20,061 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 12:17:20,065 [INFO] 发现比赛: AI STORE杯 中小学生AI创意大赛
+2026-08-22 12:17:22,476 [WARNING] 网页正文过短: http://baijiahao.baidu.com/s?id=1874154912246194846&wfr=spider&for=pc
+2026-08-22 12:17:24,498 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874049260297459734&wfr=spider&for=pc
+2026-08-22 12:17:26,527 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874010767508406800&wfr=spider&for=pc
+2026-08-22 12:17:53,322 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 12:17:53,325 [INFO] 比赛已过期或缺少有效截止日期: 第三届“福聚英才”全球创新创业大赛・“星云杯”新能源产业链分站赛 deadline=2026-08-15
+2026-08-22 12:17:53,326 [INFO] 解析处理完成，本轮解析 11 条；队列状态: {'processed': 54}
+2026-08-22 12:17:56,312 [INFO] 已推送 2 个新比赛
+2026-08-22 12:17:56,312 [INFO] ========== 本轮结束 ==========
