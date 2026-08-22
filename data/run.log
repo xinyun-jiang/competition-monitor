@@ -160,3 +160,25 @@
 2026-08-21 12:24:15,276 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 35}
 2026-08-21 12:24:17,426 [INFO] 已推送 2 个新比赛
 2026-08-21 12:24:17,426 [INFO] ========== 本轮结束 ==========
+2026-08-22 02:52:58,985 [INFO] ========== 本轮开始 ==========
+2026-08-22 02:52:58,989 [INFO] seed_urls 来源发现 1 条
+2026-08-22 02:53:06,400 [INFO] seed_pages 来源发现 1 条
+2026-08-22 02:53:06,402 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-22 02:53:22,655 [INFO] qianfan_search 来源发现 15 条
+2026-08-22 02:53:22,673 [INFO] 多来源发现完成，本轮入队/刷新 17 条；队列状态: {'processed': 35, 'resolved': 8}
+2026-08-22 02:53:24,598 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1873948694865133892&wfr=spider&for=pc
+2026-08-22 02:53:46,121 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 02:53:46,134 [INFO] 发现比赛: 广西“A超”智慧农业（数字乡村）创新大赛
+2026-08-22 02:53:47,469 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874050266392103651&wfr=spider&for=pc
+2026-08-22 02:54:01,097 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 02:54:01,101 [INFO] 发现比赛: AI+智造工业智能体场景创新大赛
+2026-08-22 02:54:16,815 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 02:54:16,820 [INFO] 发现比赛: 2026年海口市第七届“椰青杯”青少年AI教育机器人创客大赛
+2026-08-22 02:54:29,035 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 02:54:29,038 [INFO] 比赛已过期或缺少有效截止日期: 2026 GOAI 世界人工智能开源大赛「AI for Research 前沿探索」赛道 deadline=2026-08-16
+2026-08-22 02:54:31,542 [WARNING] 网页正文过短: https://www.gz.gov.cn/ysgz/xwdt/ysdt/content/post_10958569.html
+2026-08-22 02:54:43,277 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 02:54:43,281 [INFO] 发现比赛: 储云杯创新创业大赛
+2026-08-22 02:54:43,281 [INFO] 解析处理完成，本轮解析 8 条；队列状态: {'processed': 43}
+2026-08-22 02:54:46,291 [INFO] 已推送 4 个新比赛
+2026-08-22 02:54:46,291 [INFO] ========== 本轮结束 ==========
