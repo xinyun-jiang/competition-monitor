@@ -254,3 +254,20 @@
 2026-08-24 12:24:17,225 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 61}
 2026-08-24 12:24:19,339 [INFO] 已推送 1 个新比赛
 2026-08-24 12:24:19,339 [INFO] ========== 本轮结束 ==========
+2026-08-25 02:57:13,366 [INFO] ========== 本轮开始 ==========
+2026-08-25 02:57:13,369 [INFO] seed_urls 来源发现 1 条
+2026-08-25 02:57:42,281 [INFO] seed_pages 来源发现 1 条
+2026-08-25 02:57:42,286 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-25 02:58:02,879 [INFO] qianfan_search 来源发现 19 条
+2026-08-25 02:58:02,895 [INFO] 多来源发现完成，本轮入队/刷新 21 条；队列状态: {'processed': 61, 'resolved': 5}
+2026-08-25 02:58:04,919 [WARNING] 网页正文过短: https://laoyaoba.com/n/1090858
+2026-08-25 02:58:08,694 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874379379893406562&wfr=spider&for=pc
+2026-08-25 02:58:24,144 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 02:58:24,156 [INFO] 发现比赛: 2026“A超”智慧农业创新大赛
+2026-08-25 02:58:39,624 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 02:58:39,628 [INFO] 发现比赛: 第十五届中国创新创业大赛工业智能体专业赛
+2026-08-25 02:58:56,124 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 02:58:56,127 [INFO] 发现比赛: 第三届“福聚英才”全球创新创业大赛・“星云杯”新能源产业链分站赛
+2026-08-25 02:58:56,128 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 66}
+2026-08-25 02:58:58,202 [INFO] 已推送 2 个新比赛
+2026-08-25 02:58:58,202 [INFO] ========== 本轮结束 ==========
