@@ -308,3 +308,20 @@
 2026-08-26 12:27:33,112 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 73}
 2026-08-26 12:27:33,113 [INFO] 本轮没有新比赛，不推送
 2026-08-26 12:27:33,113 [INFO] ========== 本轮结束 ==========
+2026-08-27 12:21:51,569 [INFO] ========== 本轮开始 ==========
+2026-08-27 12:21:51,571 [INFO] seed_urls 来源发现 1 条
+2026-08-27 12:21:59,569 [INFO] seed_pages 来源发现 1 条
+2026-08-27 12:21:59,573 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-27 12:22:19,481 [INFO] qianfan_search 来源发现 15 条
+2026-08-27 12:22:19,494 [INFO] 多来源发现完成，本轮入队/刷新 17 条；队列状态: {'processed': 73, 'resolved': 5}
+2026-08-27 12:22:21,912 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874670228007019982&wfr=spider&for=pc
+2026-08-27 12:22:25,499 [WARNING] 抓取网页失败 https://www.km.gov.cn/c/2026-08-27/5107372.shtml: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-08-27 12:22:35,974 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:22:35,985 [INFO] 发现比赛: 第十五届中国创新创业大赛“AI+工程机械”专业赛
+2026-08-27 12:22:46,049 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:22:46,052 [INFO] 发现比赛: 第五届“鼎信杯”大赛
+2026-08-27 12:22:59,340 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 12:22:59,344 [INFO] 发现比赛: 第三届“福聚英才”全球创新创业大赛・“星云杯”新能源产业链分站赛
+2026-08-27 12:22:59,345 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 78}
+2026-08-27 12:23:01,735 [INFO] 已推送 1 个新比赛
+2026-08-27 12:23:01,735 [INFO] ========== 本轮结束 ==========
