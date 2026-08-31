@@ -412,3 +412,21 @@
 2026-08-30 15:40:04,639 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 92}
 2026-08-30 15:40:04,639 [INFO] 本轮没有新比赛，不推送
 2026-08-30 15:40:04,639 [INFO] ========== 本轮结束 ==========
+2026-08-31 08:08:06,341 [INFO] ========== 本轮开始 ==========
+2026-08-31 08:08:06,345 [INFO] seed_urls 来源发现 1 条
+2026-08-31 08:08:33,477 [INFO] seed_pages 来源发现 1 条
+2026-08-31 08:08:33,483 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-08-31 08:08:50,854 [INFO] qianfan_search 来源发现 17 条
+2026-08-31 08:08:50,868 [INFO] 多来源发现完成，本轮入队/刷新 19 条；队列状态: {'processed': 92, 'resolved': 5}
+2026-08-31 08:09:01,958 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 08:09:01,972 [INFO] 发现比赛: 智能健康座舱技术竞赛
+2026-08-31 08:09:09,798 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 08:09:09,802 [INFO] 发现比赛: 第十五届工业智能体大赛
+2026-08-31 08:09:12,953 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1874737202545387544&wfr=spider&for=pc
+2026-08-31 08:09:30,549 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 08:09:30,554 [INFO] 发现比赛: 第四届开放原子大赛・2026 开源行业解决方案创新赛
+2026-08-31 08:09:43,873 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 08:09:43,876 [INFO] 发现比赛: 第十五届中国创新创业大赛工业智能体专业赛
+2026-08-31 08:09:43,877 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 97}
+2026-08-31 08:09:45,943 [INFO] 已推送 3 个新比赛
+2026-08-31 08:09:45,943 [INFO] ========== 本轮结束 ==========
