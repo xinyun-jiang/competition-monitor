@@ -475,3 +475,16 @@
 2026-09-02 06:50:30,111 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 104}
 2026-09-02 06:50:30,111 [INFO] 本轮没有新比赛，不推送
 2026-09-02 06:50:30,111 [INFO] ========== 本轮结束 ==========
+2026-09-02 15:31:12,693 [INFO] ========== 本轮开始 ==========
+2026-09-02 15:31:12,698 [INFO] seed_urls 来源发现 1 条
+2026-09-02 15:31:19,234 [INFO] seed_pages 来源发现 1 条
+2026-09-02 15:31:19,237 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-02 15:31:36,651 [INFO] qianfan_search 来源发现 17 条
+2026-09-02 15:31:36,671 [INFO] 多来源发现完成，本轮入队/刷新 19 条；队列状态: {'processed': 104, 'resolved': 3}
+2026-09-02 15:31:38,845 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1875133217482491942&wfr=spider&for=pc
+2026-09-02 15:34:19,603 [WARNING] 抓取网页失败 https://www.my399.com/ywtsx/2026/09-01/VDpj7931.html: HTTPSConnectionPool(host='www.my399.com', port=443): Max retries exceeded with url: /ywtsx/2026/09-01/VDpj7931.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.my399.com', port=443) at 0x7f71bc365a10>, 'Connection to www.my399.com timed out. (connect timeout=20)'))
+2026-09-02 15:34:38,655 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 15:34:38,668 [INFO] 发现比赛: 航向2050：我的AI预言AI视频创作大赛
+2026-09-02 15:34:38,669 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 107}
+2026-09-02 15:34:40,761 [INFO] 已推送 1 个新比赛
+2026-09-02 15:34:40,761 [INFO] ========== 本轮结束 ==========
