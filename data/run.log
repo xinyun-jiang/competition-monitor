@@ -523,3 +523,21 @@
 2026-09-04 06:58:33,443 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 112}
 2026-09-04 06:58:35,704 [INFO] 已推送 1 个新比赛
 2026-09-04 06:58:35,704 [INFO] ========== 本轮结束 ==========
+2026-09-04 15:21:02,687 [INFO] ========== 本轮开始 ==========
+2026-09-04 15:21:02,688 [INFO] seed_urls 来源发现 1 条
+2026-09-04 15:21:11,140 [INFO] seed_pages 来源发现 1 条
+2026-09-04 15:21:11,145 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-04 15:21:32,622 [INFO] qianfan_search 来源发现 16 条
+2026-09-04 15:21:32,640 [INFO] 多来源发现完成，本轮入队/刷新 18 条；队列状态: {'processed': 112, 'resolved': 7}
+2026-09-04 15:21:36,624 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1875090495413347032&wfr=spider&for=pc
+2026-09-04 15:21:57,218 [WARNING] 抓取网页失败 https://www.nbyz.gov.cn/col/col1229883830/art/2026/art_98dddc1551e349438cc29658d38cc983.html: HTTPSConnectionPool(host='www.nbyz.gov.cn', port=443): Read timed out. (read timeout=20)
+2026-09-04 15:22:04,288 [WARNING] 网页正文过短: https://blog.csdn.net/zhuoqingjoking97298/article/details/154598625
+2026-09-04 15:22:07,188 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1875290609788300507&wfr=spider&for=pc
+2026-09-04 15:22:09,245 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1875289705290510176&wfr=spider&for=pc
+2026-09-04 15:22:22,114 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 15:22:22,148 [INFO] 发现比赛: APAI亚太人工智能青少年科技创新大赛
+2026-09-04 15:22:39,418 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 15:22:39,425 [INFO] 发现比赛: 中国创新创业大赛“AI+工程机械”专业赛
+2026-09-04 15:22:39,426 [INFO] 解析处理完成，本轮解析 7 条；队列状态: {'processed': 119}
+2026-09-04 15:22:42,390 [INFO] 已推送 1 个新比赛
+2026-09-04 15:22:42,390 [INFO] ========== 本轮结束 ==========
