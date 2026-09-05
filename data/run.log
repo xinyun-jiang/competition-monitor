@@ -550,3 +550,27 @@
 2026-09-05 06:42:03,762 [INFO] 解析处理完成，本轮解析 0 条；队列状态: {'processed': 119}
 2026-09-05 06:42:03,762 [INFO] 本轮没有新比赛，不推送
 2026-09-05 06:42:03,762 [INFO] ========== 本轮结束 ==========
+2026-09-05 14:08:36,916 [INFO] ========== 本轮开始 ==========
+2026-09-05 14:08:36,917 [INFO] seed_urls 来源发现 1 条
+2026-09-05 14:08:43,813 [INFO] seed_pages 来源发现 1 条
+2026-09-05 14:08:43,816 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-05 14:09:00,436 [INFO] qianfan_search 来源发现 17 条
+2026-09-05 14:09:00,457 [INFO] 多来源发现完成，本轮入队/刷新 19 条；队列状态: {'processed': 119, 'resolved': 8}
+2026-09-05 14:09:15,876 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:09:15,908 [INFO] 发现比赛: 2026全国科算智药创新创业大赛
+2026-09-05 14:09:26,520 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:09:26,653 [INFO] 发现比赛: 原点杯AIGC创作大赛
+2026-09-05 14:09:35,510 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:09:35,513 [INFO] 比赛已过期或缺少有效截止日期: 储云杯创新创业大赛 deadline=2026-08-15
+2026-09-05 14:09:51,665 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:09:51,670 [INFO] 发现比赛: 第十五届中国创新创业大赛“AI+工程机械”专业赛
+2026-09-05 14:10:04,909 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:10:04,913 [INFO] 发现比赛: AI + 无限万象”人工智能创新大赛 第二届“新致杯”
+2026-09-05 14:10:16,494 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:10:16,499 [INFO] 发现比赛: APAI 亚太人工智能青少年科技创新大赛・香港公开赛
+2026-09-05 14:10:29,043 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:10:29,047 [INFO] 发现比赛: 中国移动杯·第二届浙江省大学生人工智能竞赛之‘AI+信息素养’专项赛暨2026年大学生‘AI+信息素养’大赛浙江赛区比赛
+2026-09-05 14:10:31,850 [WARNING] 网页正文过短: https://challenge.xfyun.cn/topic/info?type=lithium-ion-battery&option=tjjg&ch=ymfk4uU
+2026-09-05 14:10:31,854 [INFO] 解析处理完成，本轮解析 8 条；队列状态: {'processed': 127}
+2026-09-05 14:10:35,140 [INFO] 已推送 3 个新比赛
+2026-09-05 14:10:35,140 [INFO] ========== 本轮结束 ==========
