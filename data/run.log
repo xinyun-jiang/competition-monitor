@@ -614,3 +614,15 @@
 2026-09-07 07:02:31,125 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 135}
 2026-09-07 07:02:31,125 [INFO] 本轮没有新比赛，不推送
 2026-09-07 07:02:31,125 [INFO] ========== 本轮结束 ==========
+2026-09-07 16:47:36,303 [INFO] ========== 本轮开始 ==========
+2026-09-07 16:47:36,304 [INFO] seed_urls 来源发现 1 条
+2026-09-07 16:47:41,363 [INFO] seed_pages 来源发现 1 条
+2026-09-07 16:47:41,365 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-07 16:47:58,094 [INFO] qianfan_search 来源发现 14 条
+2026-09-07 16:47:58,110 [INFO] 多来源发现完成，本轮入队/刷新 16 条；队列状态: {'processed': 135, 'resolved': 2}
+2026-09-07 16:48:12,455 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 16:48:12,471 [INFO] 发现比赛: 武进区教育智能体创新应用活动
+2026-09-07 16:48:13,389 [WARNING] 抓取网页失败 https://jwc.squ.edu.cn/info/1069/5318.htm: HTTPSConnectionPool(host='jwc.squ.edu.cn', port=443): Max retries exceeded with url: /info/1069/5318.htm (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))
+2026-09-07 16:48:13,392 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 137}
+2026-09-07 16:48:15,378 [INFO] 已推送 1 个新比赛
+2026-09-07 16:48:15,378 [INFO] ========== 本轮结束 ==========
