@@ -693,3 +693,20 @@
 2026-09-10 15:24:54,547 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 145}
 2026-09-10 15:24:56,639 [INFO] 已推送 1 个新比赛
 2026-09-10 15:24:56,639 [INFO] ========== 本轮结束 ==========
+2026-09-11 07:01:14,618 [INFO] ========== 本轮开始 ==========
+2026-09-11 07:01:14,619 [INFO] seed_urls 来源发现 1 条
+2026-09-11 07:01:24,261 [INFO] seed_pages 来源发现 1 条
+2026-09-11 07:01:24,321 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-11 07:01:46,022 [INFO] qianfan_search 来源发现 12 条
+2026-09-11 07:01:46,779 [INFO] 多来源发现完成，本轮入队/刷新 14 条；队列状态: {'processed': 145, 'resolved': 5}
+2026-09-11 07:01:49,343 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1875946437756688513&wfr=spider&for=pc
+2026-09-11 07:02:03,564 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 07:02:03,685 [INFO] 发现比赛: 第五届琶洲算法大赛女性专题赛道
+2026-09-11 07:02:05,522 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1875932728946087427&wfr=spider&for=pc
+2026-09-11 07:02:19,626 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 07:02:19,635 [INFO] 发现比赛: 2026-2027年度APAI亚太人工智能青少年科技创新大赛
+2026-09-11 07:02:38,368 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 07:02:38,386 [INFO] 发现比赛: 福聚英才全球创新创业大赛•星云杯新能源产业链分站赛
+2026-09-11 07:02:38,387 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 150}
+2026-09-11 07:02:41,211 [INFO] 已推送 2 个新比赛
+2026-09-11 07:02:41,211 [INFO] ========== 本轮结束 ==========
