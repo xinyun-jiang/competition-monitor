@@ -734,3 +734,16 @@
 2026-09-12 06:53:48,090 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 154}
 2026-09-12 06:53:48,090 [INFO] 本轮没有新比赛，不推送
 2026-09-12 06:53:48,090 [INFO] ========== 本轮结束 ==========
+2026-09-12 14:33:57,568 [INFO] ========== 本轮开始 ==========
+2026-09-12 14:33:57,569 [INFO] seed_urls 来源发现 1 条
+2026-09-12 14:34:10,688 [INFO] seed_pages 来源发现 1 条
+2026-09-12 14:34:10,691 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-12 14:34:31,682 [INFO] qianfan_search 来源发现 19 条
+2026-09-12 14:34:31,699 [INFO] 多来源发现完成，本轮入队/刷新 21 条；队列状态: {'processed': 154, 'resolved': 3}
+2026-09-12 14:34:33,366 [WARNING] 抓取网页失败 https://www.fromgeek.com/daily/1044-727037.html: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-12 14:34:49,429 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 14:34:49,441 [INFO] 发现比赛: 首届教学智能体大赛
+2026-09-12 14:34:53,394 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1875660977448926076&wfr=spider&for=pc
+2026-09-12 14:34:53,398 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 157}
+2026-09-12 14:34:56,572 [INFO] 已推送 1 个新比赛
+2026-09-12 14:34:56,572 [INFO] ========== 本轮结束 ==========
