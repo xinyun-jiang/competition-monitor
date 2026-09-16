@@ -823,3 +823,20 @@
 2026-09-15 15:52:16,760 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 171}
 2026-09-15 15:52:19,332 [INFO] 已推送 2 个新比赛
 2026-09-15 15:52:19,332 [INFO] ========== 本轮结束 ==========
+2026-09-16 07:15:47,277 [INFO] ========== 本轮开始 ==========
+2026-09-16 07:15:47,278 [INFO] seed_urls 来源发现 1 条
+2026-09-16 07:16:00,424 [INFO] seed_pages 来源发现 1 条
+2026-09-16 07:16:00,430 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-16 07:16:22,305 [INFO] qianfan_search 来源发现 16 条
+2026-09-16 07:16:22,322 [INFO] 多来源发现完成，本轮入队/刷新 18 条；队列状态: {'processed': 171, 'resolved': 4}
+2026-09-16 07:16:39,647 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:16:39,660 [INFO] 比赛已过期或缺少有效截止日期: 云南暨南亚东南亚人工智能创新作品技能大赛 deadline=2026-09-15
+2026-09-16 07:16:59,977 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:16:59,982 [INFO] 发现比赛: 2026年福建省人工智能行业垂类模型创新应用大赛
+2026-09-16 07:17:15,631 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:17:15,635 [INFO] 发现比赛: 万方数据杯智能体大赛
+2026-09-16 07:17:32,077 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:17:32,081 [INFO] 发现比赛: 2026怀柔科学城AI for Science·OPC创新挑战赛
+2026-09-16 07:17:32,082 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 175}
+2026-09-16 07:17:35,372 [INFO] 已推送 2 个新比赛
+2026-09-16 07:17:35,372 [INFO] ========== 本轮结束 ==========
