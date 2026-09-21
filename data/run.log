@@ -958,3 +958,20 @@
 2026-09-20 15:02:39,363 [INFO] 解析处理完成，本轮解析 0 条；队列状态: {'processed': 197}
 2026-09-20 15:02:39,363 [INFO] 本轮没有新比赛，不推送
 2026-09-20 15:02:39,363 [INFO] ========== 本轮结束 ==========
+2026-09-21 07:38:47,629 [INFO] ========== 本轮开始 ==========
+2026-09-21 07:38:47,630 [INFO] seed_urls 来源发现 1 条
+2026-09-21 07:38:57,622 [INFO] seed_pages 来源发现 1 条
+2026-09-21 07:38:57,625 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-21 07:39:23,335 [INFO] qianfan_search 来源发现 10 条
+2026-09-21 07:39:23,346 [INFO] 多来源发现完成，本轮入队/刷新 12 条；队列状态: {'processed': 197, 'resolved': 5}
+2026-09-21 07:39:38,599 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 07:39:38,610 [INFO] 发现比赛: AI for Science·OPC创新挑战赛
+2026-09-21 07:39:54,520 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 07:39:54,523 [INFO] 发现比赛: 第二届全国大学生仿真建模应用挑战赛
+2026-09-21 07:39:56,896 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1876816588731399296&wfr=spider&for=pc
+2026-09-21 07:39:59,925 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1876839834651145452&wfr=spider&for=pc
+2026-09-21 07:40:16,704 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 07:40:16,708 [INFO] 发现比赛: 第十五届中国创新创业大赛工业智能体专业赛
+2026-09-21 07:40:16,709 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 202}
+2026-09-21 07:40:18,799 [INFO] 已推送 2 个新比赛
+2026-09-21 07:40:18,799 [INFO] ========== 本轮结束 ==========
