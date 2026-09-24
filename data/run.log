@@ -1048,3 +1048,19 @@
 2026-09-24 07:14:39,857 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 217}
 2026-09-24 07:14:39,857 [INFO] 本轮没有新比赛，不推送
 2026-09-24 07:14:39,857 [INFO] ========== 本轮结束 ==========
+2026-09-24 16:03:52,292 [INFO] ========== 本轮开始 ==========
+2026-09-24 16:03:52,293 [INFO] seed_urls 来源发现 1 条
+2026-09-24 16:04:20,726 [INFO] seed_pages 来源发现 1 条
+2026-09-24 16:04:20,729 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-24 16:04:43,179 [INFO] qianfan_search 来源发现 17 条
+2026-09-24 16:04:43,194 [INFO] 多来源发现完成，本轮入队/刷新 19 条；队列状态: {'processed': 217, 'resolved': 5}
+2026-09-24 16:04:56,440 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 16:04:56,462 [INFO] 发现比赛: 荣耀•英特尔AI智造创新赛
+2026-09-24 16:05:16,978 [WARNING] 抓取网页失败 https://cxcy.ysu.edu.cn/info/1043/4139.htm: HTTPSConnectionPool(host='cxcy.ysu.edu.cn', port=443): Max retries exceeded with url: /info/1043/4139.htm (Caused by NewConnectionError("HTTPSConnection(host='cxcy.ysu.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-09-24 16:05:18,393 [WARNING] 网页正文过短: https://www.iyiou.com/news/202609201141551
+2026-09-24 16:05:34,951 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 16:05:34,959 [INFO] 发现比赛: 第一届 “海之子” 杯 AI 智能体挑战计划 西安建筑科技大学校内选拔赛
+2026-09-24 16:05:36,311 [WARNING] 网页正文为空: https://news.bjx.com.cn/html/20260916/1513069.shtml
+2026-09-24 16:05:36,314 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 222}
+2026-09-24 16:05:45,881 [INFO] 已推送 2 个新比赛
+2026-09-24 16:05:45,881 [INFO] ========== 本轮结束 ==========
