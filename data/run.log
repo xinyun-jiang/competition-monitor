@@ -1089,3 +1089,20 @@
 2026-09-25 07:10:32,968 [INFO] 解析处理完成，本轮解析 9 条；队列状态: {'processed': 231}
 2026-09-25 07:10:34,864 [INFO] 已推送 2 个新比赛
 2026-09-25 07:10:34,864 [INFO] ========== 本轮结束 ==========
+2026-09-25 16:04:31,625 [INFO] ========== 本轮开始 ==========
+2026-09-25 16:04:31,626 [INFO] seed_urls 来源发现 1 条
+2026-09-25 16:05:09,811 [INFO] seed_pages 来源发现 1 条
+2026-09-25 16:05:09,814 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-25 16:05:32,725 [INFO] qianfan_search 来源发现 12 条
+2026-09-25 16:05:32,734 [INFO] 多来源发现完成，本轮入队/刷新 14 条；队列状态: {'processed': 231, 'resolved': 4}
+2026-09-25 16:05:45,249 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-25 16:05:45,274 [INFO] 发现比赛: 云栖AI投研竞技场
+2026-09-25 16:06:01,400 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-25 16:06:01,420 [INFO] 比赛已过期或缺少有效截止日期: 荣耀·英特尔AI智造创新赛 deadline=2026-09-23
+2026-09-25 16:06:18,721 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-25 16:06:18,725 [INFO] 发现比赛: 怀柔科学城 AI for Science·OPC创新挑战赛
+2026-09-25 16:06:36,355 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-25 16:06:36,359 [INFO] 发现比赛: 澄迈杯人工智能+创新创业大赛
+2026-09-25 16:06:36,359 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 235}
+2026-09-25 16:06:38,504 [INFO] 已推送 2 个新比赛
+2026-09-25 16:06:38,504 [INFO] ========== 本轮结束 ==========
