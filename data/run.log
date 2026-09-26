@@ -1106,3 +1106,22 @@
 2026-09-25 16:06:36,359 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 235}
 2026-09-25 16:06:38,504 [INFO] 已推送 2 个新比赛
 2026-09-25 16:06:38,504 [INFO] ========== 本轮结束 ==========
+2026-09-26 07:05:20,215 [INFO] ========== 本轮开始 ==========
+2026-09-26 07:05:20,215 [INFO] seed_urls 来源发现 1 条
+2026-09-26 07:05:52,194 [INFO] seed_pages 来源发现 1 条
+2026-09-26 07:05:52,196 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-26 07:06:15,516 [INFO] qianfan_search 来源发现 14 条
+2026-09-26 07:06:15,524 [INFO] 多来源发现完成，本轮入队/刷新 16 条；队列状态: {'processed': 235, 'resolved': 5}
+2026-09-26 07:06:35,378 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-26 07:06:35,388 [INFO] 发现比赛: 第五届琶洲算法大赛女性专题赛道
+2026-09-26 07:06:53,049 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-26 07:06:53,054 [INFO] 发现比赛: 长江杯全球AI蛋白质设计挑战赛
+2026-09-26 07:07:07,459 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-26 07:07:07,460 [INFO] 比赛已过期或缺少有效截止日期: 第二届“新致杯”创新大赛 deadline=2026-09-20
+2026-09-26 07:07:23,196 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-26 07:07:23,199 [INFO] 发现比赛: 2026联合国数据马拉松中国赛
+2026-09-26 07:07:40,427 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-26 07:07:40,430 [INFO] 发现比赛: 第二届“万方数据杯”智能体大赛
+2026-09-26 07:07:40,431 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 240}
+2026-09-26 07:07:42,573 [INFO] 已推送 3 个新比赛
+2026-09-26 07:07:42,573 [INFO] ========== 本轮结束 ==========
