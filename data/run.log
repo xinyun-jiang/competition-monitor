@@ -1152,3 +1152,21 @@
 2026-09-27 07:38:12,036 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 246}
 2026-09-27 07:38:14,178 [INFO] 已推送 2 个新比赛
 2026-09-27 07:38:14,178 [INFO] ========== 本轮结束 ==========
+2026-09-27 15:56:27,876 [INFO] ========== 本轮开始 ==========
+2026-09-27 15:56:27,877 [INFO] seed_urls 来源发现 1 条
+2026-09-27 15:56:37,672 [INFO] seed_pages 来源发现 1 条
+2026-09-27 15:56:37,676 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-27 15:56:57,905 [INFO] qianfan_search 来源发现 15 条
+2026-09-27 15:56:57,919 [INFO] 多来源发现完成，本轮入队/刷新 17 条；队列状态: {'processed': 246, 'resolved': 5}
+2026-09-27 15:57:08,512 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:57:08,523 [INFO] 发现比赛: 智能体涌现奖
+2026-09-27 15:57:22,467 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:57:22,471 [INFO] 发现比赛: AIGCC全球首个全链条AI游戏创作大赛
+2026-09-27 15:57:25,738 [WARNING] 网页正文过短: http://baijiahao.baidu.com/s?id=1877465480900905363&wfr=spider&for=pc
+2026-09-27 15:57:41,040 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:57:41,044 [INFO] 发现比赛: 首届上海“人工智能+消费”创新大赛（2026）
+2026-09-27 15:57:52,836 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-27 15:57:52,840 [INFO] 发现比赛: 荣耀・英特尔 AI 智造创新赛
+2026-09-27 15:57:52,841 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 251}
+2026-09-27 15:57:55,263 [INFO] 已推送 4 个新比赛
+2026-09-27 15:57:55,263 [INFO] ========== 本轮结束 ==========
