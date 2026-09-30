@@ -1227,3 +1227,18 @@
 2026-09-30 08:01:53,353 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 261}
 2026-09-30 08:01:53,353 [INFO] 本轮没有新比赛，不推送
 2026-09-30 08:01:53,353 [INFO] ========== 本轮结束 ==========
+2026-09-30 17:09:19,909 [INFO] ========== 本轮开始 ==========
+2026-09-30 17:09:19,910 [INFO] seed_urls 来源发现 1 条
+2026-09-30 17:09:31,516 [INFO] seed_pages 来源发现 1 条
+2026-09-30 17:09:31,518 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-09-30 17:09:54,466 [INFO] qianfan_search 来源发现 13 条
+2026-09-30 17:09:54,487 [INFO] 多来源发现完成，本轮入队/刷新 15 条；队列状态: {'processed': 261, 'resolved': 4}
+2026-09-30 17:10:05,811 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-30 17:10:05,821 [INFO] 发现比赛: 2026首届珠海人工智能OPC创业大赛
+2026-09-30 17:10:25,563 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-09-30 17:10:25,567 [INFO] 发现比赛: 怀柔科学城AI for Science・OPC创新挑战赛
+2026-09-30 17:10:29,845 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1877658342147596020&wfr=spider&for=pc
+2026-09-30 17:10:32,701 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1877739450338663273&wfr=spider&for=pc
+2026-09-30 17:10:32,705 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 265}
+2026-09-30 17:10:34,700 [INFO] 已推送 2 个新比赛
+2026-09-30 17:10:34,701 [INFO] ========== 本轮结束 ==========
