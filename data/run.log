@@ -1257,3 +1257,24 @@
 2026-10-01 08:21:53,325 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 268}
 2026-10-01 08:21:55,480 [INFO] 已推送 2 个新比赛
 2026-10-01 08:21:55,480 [INFO] ========== 本轮结束 ==========
+2026-10-01 17:39:11,602 [INFO] ========== 本轮开始 ==========
+2026-10-01 17:39:11,603 [INFO] seed_urls 来源发现 1 条
+2026-10-01 17:39:23,070 [INFO] seed_pages 来源发现 1 条
+2026-10-01 17:39:23,072 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-01 17:39:43,897 [INFO] qianfan_search 来源发现 13 条
+2026-10-01 17:39:43,914 [INFO] 多来源发现完成，本轮入队/刷新 15 条；队列状态: {'processed': 268, 'resolved': 6}
+2026-10-01 17:40:02,673 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 17:40:02,685 [INFO] 发现比赛: 粤创杯中小学生AI应用创作与科学素养（信息学）展示大赛
+2026-10-01 17:40:17,789 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 17:40:17,793 [INFO] 发现比赛: 中国电科网信杯人工智能创新大赛
+2026-10-01 17:40:31,062 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 17:40:31,065 [INFO] 发现比赛: 第七届中国人工智能大赛
+2026-10-01 17:40:42,327 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 17:40:42,331 [INFO] 发现比赛: 第七届中国人工智能大赛
+2026-10-01 17:40:55,129 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 17:40:55,132 [INFO] 发现比赛: 未来香港创科大赛2026·AI赛道（北京）
+2026-10-01 17:41:08,480 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-01 17:41:08,483 [INFO] 发现比赛: 农商启元·AI+未来能源创新创业大赛
+2026-10-01 17:41:08,484 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 274}
+2026-10-01 17:41:10,720 [INFO] 已推送 5 个新比赛
+2026-10-01 17:41:10,721 [INFO] ========== 本轮结束 ==========
