@@ -1471,3 +1471,21 @@
 2026-10-10 08:08:35,611 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 297}
 2026-10-10 08:08:37,581 [INFO] 已推送 2 个新比赛
 2026-10-10 08:08:37,581 [INFO] ========== 本轮结束 ==========
+2026-10-10 16:31:30,489 [INFO] ========== 本轮开始 ==========
+2026-10-10 16:31:30,490 [INFO] seed_urls 来源发现 1 条
+2026-10-10 16:31:41,194 [INFO] seed_pages 来源发现 1 条
+2026-10-10 16:31:41,196 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-10 16:32:07,510 [INFO] qianfan_search 来源发现 11 条
+2026-10-10 16:32:07,523 [INFO] 多来源发现完成，本轮入队/刷新 13 条；队列状态: {'processed': 297, 'resolved': 5}
+2026-10-10 16:32:21,909 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 16:32:21,919 [INFO] 发现比赛: “来温州·创未来”2026全球精英创新创业大赛—人工智能专场赛
+2026-10-10 16:32:31,331 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 16:32:31,335 [INFO] 发现比赛: 第七届中国人工智能大赛
+2026-10-10 16:32:42,227 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 16:32:42,231 [INFO] 发现比赛: 2026全球人工智能创新创业大赛
+2026-10-10 16:32:43,625 [WARNING] 网页正文过短: https://baike.baidu.com/item/全国通用人工智能创新应用大赛/69321854
+2026-10-10 16:32:54,993 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 16:32:54,996 [INFO] 发现比赛: 京东Aidol创造营S2冒险季
+2026-10-10 16:32:54,997 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 302}
+2026-10-10 16:32:57,217 [INFO] 已推送 3 个新比赛
+2026-10-10 16:32:57,217 [INFO] ========== 本轮结束 ==========
