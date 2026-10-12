@@ -1527,3 +1527,25 @@
 2026-10-12 08:38:54,522 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 310}
 2026-10-12 08:38:54,522 [INFO] 本轮没有新比赛，不推送
 2026-10-12 08:38:54,522 [INFO] ========== 本轮结束 ==========
+2026-10-12 20:32:35,083 [INFO] ========== 本轮开始 ==========
+2026-10-12 20:32:35,084 [INFO] seed_urls 来源发现 1 条
+2026-10-12 20:32:42,278 [INFO] seed_pages 来源发现 1 条
+2026-10-12 20:32:42,280 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-12 20:33:15,411 [INFO] qianfan_search 来源发现 12 条
+2026-10-12 20:33:15,423 [INFO] 多来源发现完成，本轮入队/刷新 14 条；队列状态: {'processed': 310, 'resolved': 7}
+2026-10-12 20:33:30,762 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-12 20:33:30,771 [INFO] 发现比赛: Agent Memory Challenge 第二期
+2026-10-12 20:33:46,475 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-12 20:33:46,478 [INFO] 发现比赛: 第五届琶洲算法大赛
+2026-10-12 20:33:51,130 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1878644807020097036&wfr=spider&for=pc
+2026-10-12 20:34:02,469 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-12 20:34:02,472 [INFO] 发现比赛: 2026年江苏省储能电站运维职业技能竞赛
+2026-10-12 20:34:14,967 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-12 20:34:14,970 [INFO] 发现比赛: 2026年iCAN大学生创新创业大赛AI无代码智能体挑战赛
+2026-10-12 20:34:27,119 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-12 20:34:27,123 [INFO] 发现比赛: 2026年能源行业人工智能应用大赛
+2026-10-12 20:34:40,738 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-12 20:34:40,742 [INFO] 发现比赛: 世界青少年人工智能大赛
+2026-10-12 20:34:40,742 [INFO] 解析处理完成，本轮解析 7 条；队列状态: {'processed': 317}
+2026-10-12 20:34:43,079 [INFO] 已推送 6 个新比赛
+2026-10-12 20:34:43,079 [INFO] ========== 本轮结束 ==========
