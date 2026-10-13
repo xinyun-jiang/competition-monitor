@@ -1549,3 +1549,23 @@
 2026-10-12 20:34:40,742 [INFO] 解析处理完成，本轮解析 7 条；队列状态: {'processed': 317}
 2026-10-12 20:34:43,079 [INFO] 已推送 6 个新比赛
 2026-10-12 20:34:43,079 [INFO] ========== 本轮结束 ==========
+2026-10-13 08:58:09,631 [INFO] ========== 本轮开始 ==========
+2026-10-13 08:58:09,632 [INFO] seed_urls 来源发现 1 条
+2026-10-13 08:58:41,947 [INFO] seed_pages 来源发现 1 条
+2026-10-13 08:58:41,966 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-13 08:59:02,878 [INFO] qianfan_search 来源发现 17 条
+2026-10-13 08:59:02,896 [INFO] 多来源发现完成，本轮入队/刷新 19 条；队列状态: {'processed': 317, 'resolved': 6}
+2026-10-13 08:59:18,412 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-13 08:59:18,424 [INFO] 发现比赛: 2026中欧全球银发科技创新创业大赛
+2026-10-13 08:59:28,968 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-13 08:59:28,972 [INFO] 发现比赛: 第十八届蓝桥杯全国大学生软件和信息技术大赛
+2026-10-13 08:59:31,989 [WARNING] 网页正文过短: https://baike.baidu.com/item/第四届世界科学智能大赛/67572791
+2026-10-13 08:59:49,772 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-13 08:59:49,774 [INFO] 比赛已过期或缺少有效截止日期: 2026长三角企业智能体（Agent）开发大赛 deadline=2026-10-11
+2026-10-13 09:00:05,049 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-13 09:00:05,054 [INFO] 发现比赛: 2026年湖北省高职高专院校第八届“AI+信息素养”大赛
+2026-10-13 09:00:26,382 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-13 09:00:26,387 [INFO] 发现比赛: 全球校园人工智能算法精英大赛
+2026-10-13 09:00:26,387 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 323}
+2026-10-13 09:00:28,503 [INFO] 已推送 3 个新比赛
+2026-10-13 09:00:28,504 [INFO] ========== 本轮结束 ==========
