@@ -1596,3 +1596,23 @@
 2026-10-14 07:08:10,088 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 329}
 2026-10-14 07:08:10,088 [INFO] 本轮没有新比赛，不推送
 2026-10-14 07:08:10,088 [INFO] ========== 本轮结束 ==========
+2026-10-14 16:06:21,879 [INFO] ========== 本轮开始 ==========
+2026-10-14 16:06:21,880 [INFO] seed_urls 来源发现 1 条
+2026-10-14 16:06:53,341 [INFO] seed_pages 来源发现 1 条
+2026-10-14 16:06:53,344 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-14 16:07:18,508 [INFO] qianfan_search 来源发现 14 条
+2026-10-14 16:07:18,534 [INFO] 多来源发现完成，本轮入队/刷新 16 条；队列状态: {'processed': 329, 'resolved': 7}
+2026-10-14 16:07:21,253 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1878991763755614687&wfr=spider&for=pc
+2026-10-14 16:07:33,877 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-14 16:07:33,886 [INFO] 发现比赛: 第九届LG新能源创新大赛
+2026-10-14 16:07:46,344 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-14 16:07:46,349 [INFO] 发现比赛: 2026年中国（广西）—东盟“AI+法律”应用创新大赛
+2026-10-14 16:07:48,125 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1878832964942142375&wfr=spider&for=pc
+2026-10-14 16:07:52,701 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-14 16:07:52,704 [INFO] LLM 判定非比赛: 网络营销新规重构获客渠道，年内多家券商校园模拟赛事密集举行，参赛平台多选自家App
+2026-10-14 16:08:06,833 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-14 16:08:06,839 [INFO] 发现比赛: 中国电科网信杯人工智能创新大赛
+2026-10-14 16:08:08,076 [WARNING] 网页正文过短: https://baike.baidu.com/item/保险杯AI电力交易大赛/67854069
+2026-10-14 16:08:08,081 [INFO] 解析处理完成，本轮解析 7 条；队列状态: {'processed': 336}
+2026-10-14 16:08:11,478 [INFO] 已推送 2 个新比赛
+2026-10-14 16:08:11,478 [INFO] ========== 本轮结束 ==========
