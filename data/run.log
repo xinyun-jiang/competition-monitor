@@ -1627,3 +1627,24 @@
 2026-10-15 06:59:36,240 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 337}
 2026-10-15 06:59:36,240 [INFO] 本轮没有新比赛，不推送
 2026-10-15 06:59:36,240 [INFO] ========== 本轮结束 ==========
+2026-10-15 15:54:16,299 [INFO] ========== 本轮开始 ==========
+2026-10-15 15:54:16,300 [INFO] seed_urls 来源发现 1 条
+2026-10-15 15:54:25,778 [INFO] seed_pages 来源发现 1 条
+2026-10-15 15:54:25,799 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-15 15:54:46,825 [INFO] qianfan_search 来源发现 15 条
+2026-10-15 15:54:46,866 [INFO] 多来源发现完成，本轮入队/刷新 17 条；队列状态: {'processed': 337, 'resolved': 8}
+2026-10-15 15:55:07,613 [WARNING] 抓取网页失败 https://www.cet.com.cn/wzsy/cyzx/10608826.shtml: HTTPSConnectionPool(host='www.cet.com.cn', port=443): Max retries exceeded with url: /wzsy/cyzx/10608826.shtml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cet.com.cn', port=443) at 0x7f0165a215d0>, 'Connection to www.cet.com.cn timed out. (connect timeout=20)'))
+2026-10-15 15:55:12,091 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1878990410983026172&wfr=spider&for=pc
+2026-10-15 15:55:25,573 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 15:55:25,583 [INFO] 发现比赛: 2026年中国仿真创新应用大赛（材料科学与工程仿真方向）
+2026-10-15 15:55:27,404 [WARNING] 网页正文过短: https://baike.baidu.com/item/第二届综合交通运输大模型智能体创新应用大赛/68110713
+2026-10-15 15:55:38,078 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 15:55:38,081 [INFO] 发现比赛: AI杭州 码动未来
+2026-10-15 15:55:54,430 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 15:55:54,623 [INFO] 发现比赛: 2026一带一路暨金砖国家技能发展与技术创新大赛“第三届智能体构建与应用（企业级智能体开发）”赛项
+2026-10-15 15:56:07,548 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 15:56:07,553 [INFO] 发现比赛: Agent Memory Challenge 第二期
+2026-10-15 15:56:09,141 [WARNING] 网页正文为空: https://caifuhao.eastmoney.com/news/20261012141834888831430
+2026-10-15 15:56:09,145 [INFO] 解析处理完成，本轮解析 8 条；队列状态: {'processed': 345}
+2026-10-15 15:56:11,793 [INFO] 已推送 3 个新比赛
+2026-10-15 15:56:11,793 [INFO] ========== 本轮结束 ==========
