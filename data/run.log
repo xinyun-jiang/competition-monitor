@@ -1694,3 +1694,19 @@
 2026-10-17 14:35:08,602 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 353}
 2026-10-17 14:35:08,602 [INFO] 本轮没有新比赛，不推送
 2026-10-17 14:35:08,602 [INFO] ========== 本轮结束 ==========
+2026-10-18 06:58:36,482 [INFO] ========== 本轮开始 ==========
+2026-10-18 06:58:36,483 [INFO] seed_urls 来源发现 1 条
+2026-10-18 06:58:44,659 [INFO] seed_pages 来源发现 1 条
+2026-10-18 06:58:44,664 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-18 06:59:03,382 [INFO] qianfan_search 来源发现 14 条
+2026-10-18 06:59:03,392 [INFO] 多来源发现完成，本轮入队/刷新 16 条；队列状态: {'processed': 353, 'resolved': 4}
+2026-10-18 06:59:25,167 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-18 06:59:25,176 [INFO] 发现比赛: 2026中国青科教育智能体创新设计大赛
+2026-10-18 06:59:28,543 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879188993445482172&wfr=spider&for=pc
+2026-10-18 06:59:47,309 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-18 06:59:47,313 [INFO] 发现比赛: 郑州大学首届AI智能体创新应用大赛
+2026-10-18 06:59:58,662 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-18 06:59:58,665 [INFO] 比赛已过期或缺少有效截止日期: AI原生工厂创新应用大赛 deadline=2026-10-15
+2026-10-18 06:59:58,666 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 357}
+2026-10-18 07:00:02,248 [INFO] 已推送 2 个新比赛
+2026-10-18 07:00:02,248 [INFO] ========== 本轮结束 ==========
