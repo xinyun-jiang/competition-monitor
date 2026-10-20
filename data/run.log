@@ -1747,3 +1747,19 @@
 2026-10-19 17:55:03,736 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 362}
 2026-10-19 17:55:05,953 [INFO] 已推送 1 个新比赛
 2026-10-19 17:55:05,953 [INFO] ========== 本轮结束 ==========
+2026-10-20 07:12:00,434 [INFO] ========== 本轮开始 ==========
+2026-10-20 07:12:00,435 [INFO] seed_urls 来源发现 1 条
+2026-10-20 07:12:27,980 [INFO] seed_pages 来源发现 1 条
+2026-10-20 07:12:27,985 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-20 07:12:49,577 [INFO] qianfan_search 来源发现 18 条
+2026-10-20 07:12:49,596 [INFO] 多来源发现完成，本轮入队/刷新 20 条；队列状态: {'processed': 362, 'resolved': 4}
+2026-10-20 07:13:02,481 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-20 07:13:02,498 [INFO] 发现比赛: 快手·AI未来创造者挑战赛
+2026-10-20 07:13:12,208 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-20 07:13:12,212 [INFO] 发现比赛: 第二届广东省律师AI技能大赛
+2026-10-20 07:13:26,330 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-20 07:13:26,334 [INFO] 发现比赛: 2026山东省高新视频创新大赛
+2026-10-20 07:13:29,262 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879526748804385952&wfr=spider&for=pc
+2026-10-20 07:13:29,268 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 366}
+2026-10-20 07:13:33,193 [INFO] 已推送 3 个新比赛
+2026-10-20 07:13:33,193 [INFO] ========== 本轮结束 ==========
