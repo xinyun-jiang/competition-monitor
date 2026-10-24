@@ -1853,3 +1853,23 @@
 2026-10-23 16:04:02,772 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 384}
 2026-10-23 16:04:04,562 [INFO] 已推送 1 个新比赛
 2026-10-23 16:04:04,562 [INFO] ========== 本轮结束 ==========
+2026-10-24 06:53:21,998 [INFO] ========== 本轮开始 ==========
+2026-10-24 06:53:21,999 [INFO] seed_urls 来源发现 1 条
+2026-10-24 06:53:30,763 [INFO] seed_pages 来源发现 1 条
+2026-10-24 06:53:30,765 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-24 06:53:50,527 [INFO] qianfan_search 来源发现 21 条
+2026-10-24 06:53:50,549 [INFO] 多来源发现完成，本轮入队/刷新 23 条；队列状态: {'processed': 384, 'resolved': 8}
+2026-10-24 06:54:09,707 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-24 06:54:09,717 [INFO] 发现比赛: 北纬社区AI黑客松比赛
+2026-10-24 06:54:31,263 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-24 06:54:31,267 [INFO] 发现比赛: 第九届LG新能源创新大赛
+2026-10-24 06:54:34,078 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879720158104490914&wfr=spider&for=pc
+2026-10-24 06:54:35,889 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879638716035087334&wfr=spider&for=pc
+2026-10-24 06:54:56,369 [WARNING] 抓取网页失败 https://www.cet.com.cn/wzsy/sy/10624333.shtml: HTTPSConnectionPool(host='www.cet.com.cn', port=443): Max retries exceeded with url: /wzsy/sy/10624333.shtml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cet.com.cn', port=443) at 0x7fec763e92d0>, 'Connection to www.cet.com.cn timed out. (connect timeout=20)'))
+2026-10-24 06:54:58,418 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879200243014484114&wfr=spider&for=pc
+2026-10-24 06:55:27,927 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-24 06:55:27,930 [INFO] 发现比赛: 第四届能源电子产业创新大赛新型储能产品赛道
+2026-10-24 06:55:30,041 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879764372297280657&wfr=spider&for=pc
+2026-10-24 06:55:30,046 [INFO] 解析处理完成，本轮解析 8 条；队列状态: {'processed': 392}
+2026-10-24 06:55:32,935 [INFO] 已推送 2 个新比赛
+2026-10-24 06:55:32,935 [INFO] ========== 本轮结束 ==========
