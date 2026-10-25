@@ -1884,3 +1884,19 @@
 2026-10-24 15:01:11,336 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 393}
 2026-10-24 15:01:13,567 [INFO] 已推送 1 个新比赛
 2026-10-24 15:01:13,567 [INFO] ========== 本轮结束 ==========
+2026-10-25 07:17:27,662 [INFO] ========== 本轮开始 ==========
+2026-10-25 07:17:27,663 [INFO] seed_urls 来源发现 1 条
+2026-10-25 07:17:35,888 [INFO] seed_pages 来源发现 1 条
+2026-10-25 07:17:35,891 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-25 07:17:54,388 [INFO] qianfan_search 来源发现 19 条
+2026-10-25 07:17:54,408 [INFO] 多来源发现完成，本轮入队/刷新 21 条；队列状态: {'processed': 393, 'resolved': 5}
+2026-10-25 07:18:11,437 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-25 07:18:11,464 [INFO] 发现比赛: 荣耀创客先锋赛
+2026-10-25 07:18:24,918 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-25 07:18:24,921 [INFO] 发现比赛: 海南省首届人工智能办公应用劳动和技能大赛
+2026-10-25 07:18:27,041 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879659761397932346&wfr=spider&for=pc
+2026-10-25 07:18:28,616 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879759542538670215&wfr=spider&for=pc
+2026-10-25 07:18:30,856 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1879664478275998731&wfr=spider&for=pc
+2026-10-25 07:18:30,860 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 398}
+2026-10-25 07:18:35,914 [INFO] 已推送 2 个新比赛
+2026-10-25 07:18:35,914 [INFO] ========== 本轮结束 ==========
