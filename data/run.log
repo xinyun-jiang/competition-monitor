@@ -1925,3 +1925,22 @@
 2026-10-26 07:26:48,126 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 403}
 2026-10-26 07:26:48,126 [INFO] 本轮没有新比赛，不推送
 2026-10-26 07:26:48,127 [INFO] ========== 本轮结束 ==========
+2026-10-26 17:48:51,304 [INFO] ========== 本轮开始 ==========
+2026-10-26 17:48:51,305 [INFO] seed_urls 来源发现 1 条
+2026-10-26 17:48:56,420 [INFO] seed_pages 来源发现 1 条
+2026-10-26 17:48:56,424 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-26 17:49:14,313 [INFO] qianfan_search 来源发现 26 条
+2026-10-26 17:49:14,342 [INFO] 多来源发现完成，本轮入队/刷新 28 条；队列状态: {'processed': 403, 'resolved': 6}
+2026-10-26 17:49:28,337 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-26 17:49:28,351 [INFO] 发现比赛: 第十五届中国创新创业大赛人工智能创新应用专业赛
+2026-10-26 17:49:37,382 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-26 17:49:37,386 [INFO] 发现比赛: 原点杯AIGC创作大赛
+2026-10-26 17:49:38,379 [INFO] 初筛未通过: 世界脑洞营业中：2026国际AI黑客松选手招募开启啦
+2026-10-26 17:49:49,759 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-26 17:49:49,762 [INFO] 发现比赛: 首届榆林市智能体应用开发大赛
+2026-10-26 17:50:07,212 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-26 17:50:07,216 [INFO] 发现比赛: 第四届能源电子产业创新大赛新型储能产品赛道
+2026-10-26 17:50:08,683 [WARNING] 网页正文过短: https://challenge.xfyun.cn/topic/agent
+2026-10-26 17:50:08,687 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 409}
+2026-10-26 17:50:10,738 [INFO] 已推送 2 个新比赛
+2026-10-26 17:50:10,738 [INFO] ========== 本轮结束 ==========
