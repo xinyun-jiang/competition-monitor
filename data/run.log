@@ -1915,3 +1915,13 @@
 2026-10-25 15:12:55,252 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 402}
 2026-10-25 15:13:03,408 [INFO] 已推送 2 个新比赛
 2026-10-25 15:13:03,408 [INFO] ========== 本轮结束 ==========
+2026-10-26 07:26:01,087 [INFO] ========== 本轮开始 ==========
+2026-10-26 07:26:01,088 [INFO] seed_urls 来源发现 1 条
+2026-10-26 07:26:28,551 [INFO] seed_pages 来源发现 1 条
+2026-10-26 07:26:28,557 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-26 07:26:47,060 [INFO] qianfan_search 来源发现 20 条
+2026-10-26 07:26:47,138 [INFO] 多来源发现完成，本轮入队/刷新 22 条；队列状态: {'processed': 402, 'resolved': 1}
+2026-10-26 07:26:48,123 [WARNING] 抓取网页失败 https://aichip001.com/p/603876.html: HTTPSConnectionPool(host='aichip001.com', port=443): Max retries exceeded with url: /p/603876.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+2026-10-26 07:26:48,126 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 403}
+2026-10-26 07:26:48,126 [INFO] 本轮没有新比赛，不推送
+2026-10-26 07:26:48,127 [INFO] ========== 本轮结束 ==========
