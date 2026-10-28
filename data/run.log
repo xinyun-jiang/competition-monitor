@@ -1986,3 +1986,19 @@
 2026-10-28 07:56:43,131 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 418}
 2026-10-28 07:56:43,131 [INFO] 本轮没有新比赛，不推送
 2026-10-28 07:56:43,131 [INFO] ========== 本轮结束 ==========
+2026-10-28 17:33:51,852 [INFO] ========== 本轮开始 ==========
+2026-10-28 17:33:51,854 [INFO] seed_urls 来源发现 1 条
+2026-10-28 17:34:04,244 [INFO] seed_pages 来源发现 1 条
+2026-10-28 17:34:04,249 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-28 17:34:22,874 [INFO] qianfan_search 来源发现 24 条
+2026-10-28 17:34:22,896 [INFO] 多来源发现完成，本轮入队/刷新 26 条；队列状态: {'processed': 418, 'resolved': 4}
+2026-10-28 17:34:36,580 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-28 17:34:36,588 [INFO] 比赛已过期或缺少有效截止日期: 第八届中国研究生人工智能创新大赛 deadline=2026-10-25
+2026-10-28 17:34:49,091 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-28 17:34:49,093 [INFO] 比赛已过期或缺少有效截止日期: 2026年中国仿真创新应用大赛（材料科学与工程仿真方向） deadline=2026-10-22
+2026-10-28 17:35:04,900 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-28 17:35:04,904 [INFO] 发现比赛: 中国电科“网信杯”人工智能创新大赛B04赛题
+2026-10-28 17:35:06,070 [WARNING] 正文为空（链接可能已失效）: http://mp.weixin.qq.com/s?__biz=MzkwODY1NDg1OQ==&mid=2247495379&idx=1&sn=e6da381684bcbaae01424ad075fe160d&chksm=c6bf0a67dcbfb321887fc1e7772d75e990acb2348fa8ef7ce351c013ccf80808d219d068c341&scene=27
+2026-10-28 17:35:06,074 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 422}
+2026-10-28 17:35:08,136 [INFO] 已推送 1 个新比赛
+2026-10-28 17:35:08,136 [INFO] ========== 本轮结束 ==========
