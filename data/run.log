@@ -2034,3 +2034,20 @@
 2026-10-29 17:45:06,236 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 431}
 2026-10-29 17:45:08,327 [INFO] 已推送 2 个新比赛
 2026-10-29 17:45:08,327 [INFO] ========== 本轮结束 ==========
+2026-10-30 08:05:09,489 [INFO] ========== 本轮开始 ==========
+2026-10-30 08:05:09,490 [INFO] seed_urls 来源发现 1 条
+2026-10-30 08:05:18,304 [INFO] seed_pages 来源发现 1 条
+2026-10-30 08:05:18,306 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-10-30 08:05:36,290 [INFO] qianfan_search 来源发现 25 条
+2026-10-30 08:05:36,318 [INFO] 多来源发现完成，本轮入队/刷新 27 条；队列状态: {'processed': 431, 'resolved': 4}
+2026-10-30 08:05:46,118 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-30 08:05:46,129 [INFO] 发现比赛: 第三届福建省青少年人工智能创新赛
+2026-10-30 08:05:59,875 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-30 08:05:59,878 [INFO] 发现比赛: 第四届能源电子产业创新大赛新型储能产品赛道
+2026-10-30 08:06:10,005 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-30 08:06:10,007 [INFO] 比赛已过期或缺少有效截止日期: 2026年泉州市职工职业技能竞赛 deadline=2026-10-25
+2026-10-30 08:06:23,026 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-10-30 08:06:23,030 [INFO] 发现比赛: 第四届能源电子产业创新大赛新型储能产品赛道
+2026-10-30 08:06:23,031 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 435}
+2026-10-30 08:06:23,031 [INFO] 本轮没有新比赛，不推送
+2026-10-30 08:06:23,031 [INFO] ========== 本轮结束 ==========
