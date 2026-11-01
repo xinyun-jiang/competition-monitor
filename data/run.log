@@ -2085,3 +2085,25 @@
 2026-10-31 16:28:30,121 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 441}
 2026-10-31 16:28:30,122 [INFO] 本轮没有新比赛，不推送
 2026-10-31 16:28:30,122 [INFO] ========== 本轮结束 ==========
+2026-11-01 08:44:09,778 [INFO] ========== 本轮开始 ==========
+2026-11-01 08:44:09,779 [INFO] seed_urls 来源发现 1 条
+2026-11-01 08:44:19,917 [INFO] seed_pages 来源发现 1 条
+2026-11-01 08:44:19,919 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-01 08:44:39,567 [INFO] qianfan_search 来源发现 27 条
+2026-11-01 08:44:39,594 [INFO] 多来源发现完成，本轮入队/刷新 29 条；队列状态: {'processed': 441, 'resolved': 9}
+2026-11-01 08:44:42,342 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1880251640167225319&wfr=spider&for=pc
+2026-11-01 08:44:52,027 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-01 08:44:52,037 [INFO] 发现比赛: 第二届北京市大学生“人工智能＋”创新大赛
+2026-11-01 08:44:54,884 [WARNING] 网页正文过短: https://baike.baidu.com/item/储能%2BX解决方案专项赛/69513748
+2026-11-01 08:44:56,616 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1880458286015222416&wfr=spider&for=pc
+2026-11-01 08:45:08,940 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-01 08:45:08,944 [INFO] 发现比赛: 乐奇Rokid年度全球开发大赛
+2026-11-01 08:45:10,798 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1880456858613279540&wfr=spider&for=pc
+2026-11-01 08:45:11,603 [WARNING] 网页正文过短: https://baike.baidu.com/item/全国AI%2B电力市场应用大赛/69562620
+2026-11-01 08:45:22,640 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-01 08:45:22,644 [INFO] 发现比赛: 第九届LG新能源创新大赛
+2026-11-01 08:45:37,564 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-01 08:45:37,566 [INFO] 比赛已过期或缺少有效截止日期: 安克AI黑客松大赛 deadline=2026-10-23
+2026-11-01 08:45:37,568 [INFO] 解析处理完成，本轮解析 9 条；队列状态: {'processed': 450}
+2026-11-01 08:45:39,640 [INFO] 已推送 1 个新比赛
+2026-11-01 08:45:39,640 [INFO] ========== 本轮结束 ==========
