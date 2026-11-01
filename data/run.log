@@ -2107,3 +2107,21 @@
 2026-11-01 08:45:37,568 [INFO] 解析处理完成，本轮解析 9 条；队列状态: {'processed': 450}
 2026-11-01 08:45:39,640 [INFO] 已推送 1 个新比赛
 2026-11-01 08:45:39,640 [INFO] ========== 本轮结束 ==========
+2026-11-01 17:21:57,034 [INFO] ========== 本轮开始 ==========
+2026-11-01 17:21:57,035 [INFO] seed_urls 来源发现 1 条
+2026-11-01 17:22:04,860 [INFO] seed_pages 来源发现 1 条
+2026-11-01 17:22:04,862 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-01 17:22:20,718 [INFO] qianfan_search 来源发现 30 条
+2026-11-01 17:22:20,744 [INFO] 多来源发现完成，本轮入队/刷新 32 条；队列状态: {'processed': 450, 'resolved': 6}
+2026-11-01 17:22:39,661 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-01 17:22:39,674 [INFO] 发现比赛: 中国电科“网信杯”人工智能创新大赛B04赛题
+2026-11-01 17:22:41,559 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1880525857924934517&wfr=spider&for=pc
+2026-11-01 17:23:21,628 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-01 17:23:21,632 [INFO] 发现比赛: 第四届能源电子产业创新大赛暨第五届先进储能技术创新挑战赛新型储能安全集成技术专题赛
+2026-11-01 17:23:23,671 [WARNING] 网页正文过短: http://baijiahao.baidu.com/s?id=1880629033363731453&wfr=spider&for=pc
+2026-11-01 17:23:24,845 [WARNING] 网页正文过短: https://www.njdaily.cn/news/2026/1101/-9061485751435074010.html
+2026-11-01 17:23:49,022 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-01 17:23:49,026 [INFO] 发现比赛: 中国电科“网信杯”人工智能创新大赛B04赛题
+2026-11-01 17:23:49,027 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 456}
+2026-11-01 17:23:50,940 [INFO] 已推送 1 个新比赛
+2026-11-01 17:23:50,941 [INFO] ========== 本轮结束 ==========
