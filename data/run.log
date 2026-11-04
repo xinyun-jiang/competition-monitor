@@ -2177,3 +2177,20 @@
 2026-11-03 18:46:27,829 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 464}
 2026-11-03 18:46:30,039 [INFO] 已推送 1 个新比赛
 2026-11-03 18:46:30,039 [INFO] ========== 本轮结束 ==========
+2026-11-04 08:38:44,843 [INFO] ========== 本轮开始 ==========
+2026-11-04 08:38:44,845 [INFO] seed_urls 来源发现 1 条
+2026-11-04 08:38:56,005 [INFO] seed_pages 来源发现 1 条
+2026-11-04 08:38:56,008 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-04 08:39:12,466 [INFO] qianfan_search 来源发现 20 条
+2026-11-04 08:39:12,489 [INFO] 多来源发现完成，本轮入队/刷新 22 条；队列状态: {'processed': 464, 'resolved': 4}
+2026-11-04 08:39:23,913 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 08:39:23,937 [INFO] 发现比赛: 2026年国产机器人及PLC新型工业化场景应用技能竞赛
+2026-11-04 08:39:36,545 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 08:39:36,549 [INFO] 发现比赛: 2026江苏创青春“人工智能+住房城乡建设”创新创业大赛
+2026-11-04 08:39:50,241 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 08:39:50,246 [INFO] 发现比赛: 广东省青少年人工智能创新创业创客赛
+2026-11-04 08:40:13,587 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 08:40:13,590 [INFO] 发现比赛: 云创杯创新创业大赛
+2026-11-04 08:40:13,591 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 468}
+2026-11-04 08:40:15,579 [INFO] 已推送 3 个新比赛
+2026-11-04 08:40:15,579 [INFO] ========== 本轮结束 ==========
