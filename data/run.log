@@ -2253,3 +2253,17 @@
 2026-11-06 08:57:44,611 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 483}
 2026-11-06 08:57:47,849 [INFO] 已推送 3 个新比赛
 2026-11-06 08:57:47,850 [INFO] ========== 本轮结束 ==========
+2026-11-06 18:38:42,226 [INFO] ========== 本轮开始 ==========
+2026-11-06 18:38:42,227 [INFO] seed_urls 来源发现 1 条
+2026-11-06 18:38:50,609 [INFO] seed_pages 来源发现 1 条
+2026-11-06 18:38:50,637 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-06 18:39:09,734 [INFO] qianfan_search 来源发现 21 条
+2026-11-06 18:39:09,863 [INFO] 多来源发现完成，本轮入队/刷新 23 条；队列状态: {'processed': 483, 'resolved': 3}
+2026-11-06 18:39:25,181 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-06 18:39:25,321 [INFO] 比赛已过期或缺少有效截止日期: 2026苏客松（苏州青年产业黑客松）大赛 deadline=2026-08-15
+2026-11-06 18:39:35,340 [WARNING] 抓取网页失败 http://nxdz.changsha.gov.cn/xwzx/tzgs/yqgg/202611/t20261106_12610933.html: HTTPConnectionPool(host='nxdz.changsha.gov.cn', port=80): Max retries exceeded with url: /xwzx/tzgs/yqgg/202611/t20261106_12610933.html (Caused by NameResolutionError("HTTPConnection(host='nxdz.changsha.gov.cn', port=80): Failed to resolve 'nxdz.changsha.gov.cn' ([Errno -3] Temporary failure in name resolution)"))
+2026-11-06 18:39:47,902 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-06 18:39:47,906 [INFO] 发现比赛: 第八届全球校园人工智能算法精英大赛
+2026-11-06 18:39:47,907 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 486}
+2026-11-06 18:39:50,199 [INFO] 已推送 1 个新比赛
+2026-11-06 18:39:50,199 [INFO] ========== 本轮结束 ==========
