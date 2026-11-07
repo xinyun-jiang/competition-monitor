@@ -2267,3 +2267,20 @@
 2026-11-06 18:39:47,907 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 486}
 2026-11-06 18:39:50,199 [INFO] 已推送 1 个新比赛
 2026-11-06 18:39:50,199 [INFO] ========== 本轮结束 ==========
+2026-11-07 08:21:01,139 [INFO] ========== 本轮开始 ==========
+2026-11-07 08:21:01,143 [INFO] seed_urls 来源发现 1 条
+2026-11-07 08:21:11,351 [INFO] seed_pages 来源发现 1 条
+2026-11-07 08:21:11,357 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-07 08:21:30,940 [INFO] qianfan_search 来源发现 24 条
+2026-11-07 08:21:30,979 [INFO] 多来源发现完成，本轮入队/刷新 26 条；队列状态: {'processed': 486, 'resolved': 4}
+2026-11-07 08:21:45,174 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 08:21:45,181 [INFO] 发现比赛: 中国电科“网信杯”人工智能创新大赛
+2026-11-07 08:21:59,540 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 08:21:59,543 [INFO] 发现比赛: 2026年国产机器人及PLC新型工业化场景应用技能竞赛
+2026-11-07 08:22:17,601 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 08:22:17,605 [INFO] 发现比赛: 中国中车杯第九届全国大学生可再生能源优秀科技作品竞赛
+2026-11-07 08:22:35,497 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 08:22:35,500 [INFO] 发现比赛: 中国电科“网信杯”人工智能创新大赛
+2026-11-07 08:22:35,501 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 490}
+2026-11-07 08:22:37,742 [INFO] 已推送 3 个新比赛
+2026-11-07 08:22:37,742 [INFO] ========== 本轮结束 ==========
