@@ -2316,3 +2316,18 @@
 2026-11-08 08:40:19,128 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 497}
 2026-11-08 08:40:21,313 [INFO] 已推送 3 个新比赛
 2026-11-08 08:40:21,313 [INFO] ========== 本轮结束 ==========
+2026-11-08 17:20:51,656 [INFO] ========== 本轮开始 ==========
+2026-11-08 17:20:51,662 [INFO] seed_urls 来源发现 1 条
+2026-11-08 17:20:59,479 [INFO] seed_pages 来源发现 1 条
+2026-11-08 17:20:59,481 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-08 17:21:40,996 [INFO] qianfan_search 来源发现 20 条
+2026-11-08 17:21:41,013 [INFO] 多来源发现完成，本轮入队/刷新 22 条；队列状态: {'processed': 497, 'resolved': 3}
+2026-11-08 17:21:52,503 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 17:21:52,512 [INFO] 发现比赛: 中国电科“网信杯”人工智能创新大赛
+2026-11-08 17:22:04,549 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 17:22:04,552 [INFO] 比赛已过期或缺少有效截止日期: 2026怀柔科学城AI for Science·OPC创新挑战赛 deadline=2026-11-07
+2026-11-08 17:22:15,426 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 17:22:15,429 [INFO] 发现比赛: 智赋光电・AI 创未来
+2026-11-08 17:22:15,430 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 500}
+2026-11-08 17:22:17,713 [INFO] 已推送 2 个新比赛
+2026-11-08 17:22:17,713 [INFO] ========== 本轮结束 ==========
