@@ -2295,3 +2295,24 @@
 2026-11-07 17:08:19,316 [INFO] 解析处理完成，本轮解析 1 条；队列状态: {'processed': 491}
 2026-11-07 17:08:21,409 [INFO] 已推送 1 个新比赛
 2026-11-07 17:08:21,409 [INFO] ========== 本轮结束 ==========
+2026-11-08 08:37:39,910 [INFO] ========== 本轮开始 ==========
+2026-11-08 08:37:39,916 [INFO] seed_urls 来源发现 1 条
+2026-11-08 08:38:13,604 [INFO] seed_pages 来源发现 1 条
+2026-11-08 08:38:13,607 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-08 08:38:49,495 [INFO] qianfan_search 来源发现 24 条
+2026-11-08 08:38:49,514 [INFO] 多来源发现完成，本轮入队/刷新 26 条；队列状态: {'processed': 491, 'resolved': 6}
+2026-11-08 08:39:06,728 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 08:39:06,736 [INFO] 比赛已过期或缺少有效截止日期: 怀柔科学城AI for Science·OPC创新挑战赛 deadline=2026-11-07
+2026-11-08 08:39:20,040 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 08:39:20,043 [INFO] 发现比赛: 中国电科“网信杯”人工智能创新大赛
+2026-11-08 08:39:35,640 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 08:39:35,644 [INFO] 发现比赛: 第三届和田地区科学素质提升大赛
+2026-11-08 08:39:52,184 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 08:39:52,187 [INFO] 发现比赛: 2026（第二届）大学生品牌建设创新大赛
+2026-11-08 08:40:04,561 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 08:40:04,563 [INFO] 比赛已过期或缺少有效截止日期: 动感地带AI+高校创智计划 deadline=2026-11-06
+2026-11-08 08:40:19,122 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-08 08:40:19,126 [INFO] 比赛已过期或缺少有效截止日期: 四川外国语大学首届智能体创新应用大赛 deadline=2026-11-02
+2026-11-08 08:40:19,128 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 497}
+2026-11-08 08:40:21,313 [INFO] 已推送 3 个新比赛
+2026-11-08 08:40:21,313 [INFO] ========== 本轮结束 ==========
