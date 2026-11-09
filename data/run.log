@@ -2331,3 +2331,22 @@
 2026-11-08 17:22:15,430 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 500}
 2026-11-08 17:22:17,713 [INFO] 已推送 2 个新比赛
 2026-11-08 17:22:17,713 [INFO] ========== 本轮结束 ==========
+2026-11-09 09:09:04,024 [INFO] ========== 本轮开始 ==========
+2026-11-09 09:09:04,028 [INFO] seed_urls 来源发现 1 条
+2026-11-09 09:09:17,728 [INFO] seed_pages 来源发现 1 条
+2026-11-09 09:09:17,731 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-09 09:09:37,167 [INFO] qianfan_search 来源发现 22 条
+2026-11-09 09:09:37,194 [INFO] 多来源发现完成，本轮入队/刷新 24 条；队列状态: {'processed': 500, 'resolved': 5}
+2026-11-09 09:09:50,282 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 09:09:50,289 [INFO] 发现比赛: 中国电科“网信杯”人工智能创新大赛
+2026-11-09 09:10:03,472 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 09:10:03,475 [INFO] 发现比赛: 第九届LG新能源创新大赛
+2026-11-09 09:10:14,677 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 09:10:14,680 [INFO] 发现比赛: 数生光影数智AI短剧大赛
+2026-11-09 09:10:34,226 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 09:10:34,229 [INFO] 发现比赛: 2026年江苏省储能电站运维职业技能竞赛
+2026-11-09 09:10:55,352 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 09:10:55,355 [INFO] 发现比赛: 2026年百度智能云人工智能创新应用大赛
+2026-11-09 09:10:55,356 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 505}
+2026-11-09 09:10:57,198 [INFO] 已推送 3 个新比赛
+2026-11-09 09:10:57,198 [INFO] ========== 本轮结束 ==========
