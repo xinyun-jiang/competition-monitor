@@ -2392,3 +2392,19 @@
 2026-11-10 19:00:56,517 [INFO] 解析处理完成，本轮解析 2 条；队列状态: {'processed': 514}
 2026-11-10 19:00:56,517 [INFO] 本轮没有新比赛，不推送
 2026-11-10 19:00:56,517 [INFO] ========== 本轮结束 ==========
+2026-11-11 08:52:01,256 [INFO] ========== 本轮开始 ==========
+2026-11-11 08:52:01,261 [INFO] seed_urls 来源发现 1 条
+2026-11-11 08:52:09,852 [INFO] seed_pages 来源发现 1 条
+2026-11-11 08:52:09,854 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-11 08:52:33,175 [INFO] qianfan_search 来源发现 18 条
+2026-11-11 08:52:33,195 [INFO] 多来源发现完成，本轮入队/刷新 20 条；队列状态: {'processed': 514, 'resolved': 4}
+2026-11-11 08:52:47,611 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-11 08:52:47,621 [INFO] 发现比赛: 合肥新站高新区青年职工AI技能应用创新大赛
+2026-11-11 08:53:01,575 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-11 08:53:01,578 [INFO] 发现比赛: 动感地带AI+高校创智计划
+2026-11-11 08:53:14,248 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-11 08:53:14,252 [INFO] 发现比赛: 2026华为开发者大赛·智能体创新赛·西安邮电大学站
+2026-11-11 08:53:15,559 [WARNING] 抓取网页失败 https://www.cnii.com.cn/rmydb/202611/t20261109_768454.html: HTTPSConnectionPool(host='www.cnii.com.cn', port=443): Max retries exceeded with url: /rmydb/202611/t20261109_768454.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2026-11-11 08:53:15,562 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 518}
+2026-11-11 08:53:18,568 [INFO] 已推送 3 个新比赛
+2026-11-11 08:53:18,568 [INFO] ========== 本轮结束 ==========
