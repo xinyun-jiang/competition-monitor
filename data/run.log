@@ -2468,3 +2468,27 @@
 2026-11-13 09:08:35,453 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 532}
 2026-11-13 09:08:37,436 [INFO] 已推送 2 个新比赛
 2026-11-13 09:08:37,436 [INFO] ========== 本轮结束 ==========
+2026-11-13 18:53:42,846 [INFO] ========== 本轮开始 ==========
+2026-11-13 18:53:42,855 [INFO] seed_urls 来源发现 1 条
+2026-11-13 18:54:08,761 [INFO] seed_pages 来源发现 1 条
+2026-11-13 18:54:08,767 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-13 18:54:25,162 [INFO] qianfan_search 来源发现 24 条
+2026-11-13 18:54:25,175 [INFO] 多来源发现完成，本轮入队/刷新 26 条；队列状态: {'processed': 532, 'resolved': 10}
+2026-11-13 18:54:27,676 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1881687892312755162&wfr=spider&for=pc
+2026-11-13 18:54:41,653 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-13 18:54:41,660 [INFO] 发现比赛: 世界级AI比赛
+2026-11-13 18:54:51,549 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-13 18:54:51,551 [INFO] 发现比赛: Open Agentic Web Challenge挑战赛
+2026-11-13 18:55:03,295 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-13 18:55:03,298 [INFO] 发现比赛: SAIG·数命SPU国际AI大赛
+2026-11-13 18:55:04,757 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1881363873605014154&wfr=spider&for=pc
+2026-11-13 18:55:06,727 [WARNING] 网页正文过短: https://nic.ecut.edu.cn/zntbm/main.htm
+2026-11-13 18:55:19,119 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-13 18:55:19,122 [INFO] 发现比赛: 青海大学第三届 AI 智能体创新大赛
+2026-11-13 18:55:20,624 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1881713670478142943&wfr=spider&for=pc
+2026-11-13 18:55:22,057 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1881713588386310583&wfr=spider&for=pc
+2026-11-13 18:55:33,973 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-13 18:55:33,976 [INFO] 发现比赛: 2026华为开发者大赛·智能体创新赛·西安邮电大学站
+2026-11-13 18:55:33,977 [INFO] 解析处理完成，本轮解析 10 条；队列状态: {'processed': 542}
+2026-11-13 18:55:36,030 [INFO] 已推送 4 个新比赛
+2026-11-13 18:55:36,030 [INFO] ========== 本轮结束 ==========
