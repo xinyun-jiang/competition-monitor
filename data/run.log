@@ -2452,3 +2452,19 @@
 2026-11-12 19:17:12,352 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 528}
 2026-11-12 19:17:12,353 [INFO] 本轮没有新比赛，不推送
 2026-11-12 19:17:12,353 [INFO] ========== 本轮结束 ==========
+2026-11-13 09:06:47,061 [INFO] ========== 本轮开始 ==========
+2026-11-13 09:06:47,066 [INFO] seed_urls 来源发现 1 条
+2026-11-13 09:06:55,904 [INFO] seed_pages 来源发现 1 条
+2026-11-13 09:06:55,906 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-13 09:07:14,653 [INFO] qianfan_search 来源发现 21 条
+2026-11-13 09:07:14,677 [INFO] 多来源发现完成，本轮入队/刷新 23 条；队列状态: {'processed': 528, 'resolved': 4}
+2026-11-13 09:07:44,504 [WARNING] 抓取网页失败 https://news.sina.cn/sx/2026-11-10/detail-iniyfkmh9407702.d.html: HTTPSConnectionPool(host='news.sina.cn', port=443): Read timed out.
+2026-11-13 09:08:03,673 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-13 09:08:03,683 [INFO] 发现比赛: TelcoRetrieve挑战赛
+2026-11-13 09:08:19,685 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-13 09:08:19,690 [INFO] 发现比赛: 第八届国际青年人工智能大赛辽宁赛区选拔赛
+2026-11-13 09:08:35,449 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-13 09:08:35,451 [INFO] 比赛已过期或缺少有效截止日期: 第九届LG新能源创新大赛 deadline=2026-11-10
+2026-11-13 09:08:35,453 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 532}
+2026-11-13 09:08:37,436 [INFO] 已推送 2 个新比赛
+2026-11-13 09:08:37,436 [INFO] ========== 本轮结束 ==========
