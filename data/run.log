@@ -2562,3 +2562,23 @@
 2026-11-16 09:03:01,627 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 558}
 2026-11-16 09:03:04,534 [INFO] 已推送 3 个新比赛
 2026-11-16 09:03:04,534 [INFO] ========== 本轮结束 ==========
+2026-11-16 21:22:58,769 [INFO] ========== 本轮开始 ==========
+2026-11-16 21:22:58,773 [INFO] seed_urls 来源发现 1 条
+2026-11-16 21:23:07,577 [INFO] seed_pages 来源发现 1 条
+2026-11-16 21:23:07,579 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-16 21:23:24,594 [INFO] qianfan_search 来源发现 25 条
+2026-11-16 21:23:24,617 [INFO] 多来源发现完成，本轮入队/刷新 27 条；队列状态: {'processed': 558, 'resolved': 6}
+2026-11-16 21:23:38,231 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 21:23:38,238 [INFO] 比赛已过期或缺少有效截止日期: MatrixNEXT 2026.AI BUILDER FESTIVAL deadline=2026-11-14
+2026-11-16 21:23:51,587 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 21:23:51,591 [INFO] 发现比赛: 希音AI创新挑战赛
+2026-11-16 21:24:01,760 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 21:24:01,764 [INFO] 发现比赛: 希音AI创新挑战赛
+2026-11-16 21:24:12,221 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 21:24:12,224 [INFO] 发现比赛: 第八届国际青年人工智能大赛辽宁赛区选拔赛
+2026-11-16 21:24:14,817 [WARNING] 网页正文过短: https://baike.baidu.com/item/智赋光电·AI创未来AI赋能技能大赛/69712213
+2026-11-16 21:24:31,070 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 21:24:31,072 [INFO] 比赛已过期或缺少有效截止日期: 2026全国通用人工智能创新应用大赛 deadline=2026-11-15
+2026-11-16 21:24:31,074 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 564}
+2026-11-16 21:24:33,196 [INFO] 已推送 1 个新比赛
+2026-11-16 21:24:33,197 [INFO] ========== 本轮结束 ==========
