@@ -2597,3 +2597,20 @@
 2026-11-17 10:14:51,542 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 568}
 2026-11-17 10:14:51,542 [INFO] 本轮没有新比赛，不推送
 2026-11-17 10:14:51,543 [INFO] ========== 本轮结束 ==========
+2026-11-17 20:10:49,594 [INFO] ========== 本轮开始 ==========
+2026-11-17 20:10:49,603 [INFO] seed_urls 来源发现 1 条
+2026-11-17 20:10:55,297 [INFO] seed_pages 来源发现 1 条
+2026-11-17 20:10:55,299 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-17 20:11:14,066 [INFO] qianfan_search 来源发现 26 条
+2026-11-17 20:11:14,083 [INFO] 多来源发现完成，本轮入队/刷新 28 条；队列状态: {'processed': 568, 'resolved': 6}
+2026-11-17 20:11:27,222 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 20:11:27,231 [INFO] 发现比赛: Open Agentic Web Challenge
+2026-11-17 20:11:29,646 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1882010194474137732&wfr=spider&for=pc
+2026-11-17 20:11:41,339 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-17 20:11:41,341 [INFO] 比赛已过期或缺少有效截止日期: AI创新创业赛道 deadline=2026-08-15
+2026-11-17 20:11:42,828 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1882011653403256993&wfr=spider&for=pc
+2026-11-17 20:12:03,220 [WARNING] 抓取网页失败 https://www.gaxq.gov.cn/xwdt/gayw/202611/t20261117_91110652.html: HTTPSConnectionPool(host='www.gaxq.gov.cn', port=443): Max retries exceeded with url: /xwdt/gayw/202611/t20261117_91110652.html (Caused by NewConnectionError("HTTPSConnection(host='www.gaxq.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-11-17 20:12:05,245 [WARNING] 网页正文过短: https://baijiahao.baidu.com/s?id=1882096165681796148&wfr=spider&for=pc
+2026-11-17 20:12:05,249 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 574}
+2026-11-17 20:12:07,126 [INFO] 已推送 1 个新比赛
+2026-11-17 20:12:07,127 [INFO] ========== 本轮结束 ==========
