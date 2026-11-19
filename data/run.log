@@ -2642,3 +2642,20 @@
 2026-11-18 19:43:35,765 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 582}
 2026-11-18 19:43:35,765 [INFO] 本轮没有新比赛，不推送
 2026-11-18 19:43:35,765 [INFO] ========== 本轮结束 ==========
+2026-11-19 09:54:45,145 [INFO] ========== 本轮开始 ==========
+2026-11-19 09:54:45,329 [INFO] seed_urls 来源发现 1 条
+2026-11-19 09:55:11,796 [INFO] seed_pages 来源发现 1 条
+2026-11-19 09:55:11,895 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-19 09:55:27,681 [INFO] qianfan_search 来源发现 22 条
+2026-11-19 09:55:27,710 [INFO] 多来源发现完成，本轮入队/刷新 24 条；队列状态: {'processed': 582, 'resolved': 4}
+2026-11-19 09:55:42,543 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-19 09:55:42,551 [INFO] 发现比赛: 希音AI创新挑战赛
+2026-11-19 09:55:54,033 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-19 09:55:54,094 [INFO] 发现比赛: 十堰市茅箭区首届Token产业IP创意大赛
+2026-11-19 09:56:10,736 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-19 09:56:10,739 [INFO] 发现比赛: 贵安新区智能体应用大赛
+2026-11-19 09:56:26,396 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-19 09:56:26,436 [INFO] 发现比赛: 华为开发者大赛“Agent 创新赛”
+2026-11-19 09:56:26,438 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 586}
+2026-11-19 09:56:31,168 [INFO] 已推送 3 个新比赛
+2026-11-19 09:56:31,168 [INFO] ========== 本轮结束 ==========
