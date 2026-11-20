@@ -2676,3 +2676,20 @@
 2026-11-19 19:44:03,404 [INFO] 解析处理完成，本轮解析 6 条；队列状态: {'processed': 592}
 2026-11-19 19:44:05,398 [INFO] 已推送 1 个新比赛
 2026-11-19 19:44:05,398 [INFO] ========== 本轮结束 ==========
+2026-11-20 09:41:56,904 [INFO] ========== 本轮开始 ==========
+2026-11-20 09:41:56,907 [INFO] seed_urls 来源发现 1 条
+2026-11-20 09:42:05,891 [INFO] seed_pages 来源发现 1 条
+2026-11-20 09:42:05,894 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-20 09:42:25,601 [INFO] qianfan_search 来源发现 25 条
+2026-11-20 09:42:25,623 [INFO] 多来源发现完成，本轮入队/刷新 27 条；队列状态: {'processed': 592, 'resolved': 4}
+2026-11-20 09:42:40,405 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-20 09:42:40,415 [INFO] 发现比赛: 2026面向东盟“人工智能＋体育”应用场景大赛
+2026-11-20 09:42:50,488 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-20 09:42:50,491 [INFO] 发现比赛: 贵安新区智能体应用大赛
+2026-11-20 09:43:02,843 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-20 09:43:02,847 [INFO] 发现比赛: 2026年天河区人工智能+软件创新创业大赛
+2026-11-20 09:43:12,853 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-20 09:43:12,857 [INFO] 发现比赛: 贵安新区智能体应用大赛暨第三届贵阳大数据科创城创新创业应用大赛
+2026-11-20 09:43:12,858 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 596}
+2026-11-20 09:43:14,724 [INFO] 已推送 4 个新比赛
+2026-11-20 09:43:14,724 [INFO] ========== 本轮结束 ==========
