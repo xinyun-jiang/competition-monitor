@@ -2814,3 +2814,25 @@
 2026-11-24 21:40:44,936 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 620}
 2026-11-24 21:40:46,709 [INFO] 已推送 1 个新比赛
 2026-11-24 21:40:46,709 [INFO] ========== 本轮结束 ==========
+2026-11-25 10:53:30,203 [INFO] ========== 本轮开始 ==========
+2026-11-25 10:53:30,208 [INFO] seed_urls 来源发现 1 条
+2026-11-25 10:53:57,796 [INFO] seed_pages 来源发现 1 条
+2026-11-25 10:53:57,802 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-25 10:54:17,653 [INFO] qianfan_search 来源发现 28 条
+2026-11-25 10:54:17,680 [INFO] 多来源发现完成，本轮入队/刷新 30 条；队列状态: {'processed': 620, 'resolved': 7}
+2026-11-25 10:54:28,077 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 10:54:28,086 [INFO] 发现比赛: 世界青少年人工智能大赛（WAICY）
+2026-11-25 10:54:40,685 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 10:54:40,689 [INFO] 发现比赛: 2026游点灵全国AI游戏创作大赛
+2026-11-25 10:54:51,247 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 10:54:51,251 [INFO] 比赛已过期或缺少有效截止日期: 第十五届中国创新创业大赛颠覆性技术创新大赛 deadline=2026-11-24
+2026-11-25 10:55:02,433 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 10:55:02,435 [INFO] 比赛已过期或缺少有效截止日期: 2026中国高校计算机大赛人工智能创意赛 deadline=2026-08-15
+2026-11-25 10:55:17,114 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 10:55:17,117 [INFO] 发现比赛: 第一届锦衣黑客松「文脉新生 · 48h AI+传统文化主题黑客松大赛」
+2026-11-25 10:55:19,775 [WARNING] 网页正文过短: https://baike.baidu.com/item/2025年安徽省储能电站运维管理员职业技能竞赛/69844631
+2026-11-25 10:55:35,305 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-25 10:55:35,309 [INFO] 发现比赛: 智汇青春·AI赋能TeleAgent智能体应用技能大赛
+2026-11-25 10:55:35,311 [INFO] 解析处理完成，本轮解析 7 条；队列状态: {'processed': 627}
+2026-11-25 10:55:37,331 [INFO] 已推送 4 个新比赛
+2026-11-25 10:55:37,331 [INFO] ========== 本轮结束 ==========
