@@ -2868,3 +2868,25 @@
 2026-11-26 10:30:27,533 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 635}
 2026-11-26 10:30:29,076 [INFO] 已推送 2 个新比赛
 2026-11-26 10:30:29,076 [INFO] ========== 本轮结束 ==========
+2026-11-26 20:40:07,450 [INFO] ========== 本轮开始 ==========
+2026-11-26 20:40:07,455 [INFO] seed_urls 来源发现 1 条
+2026-11-26 20:40:33,998 [INFO] seed_pages 来源发现 1 条
+2026-11-26 20:40:34,002 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-26 20:40:49,627 [INFO] qianfan_search 来源发现 32 条
+2026-11-26 20:40:49,660 [INFO] 多来源发现完成，本轮入队/刷新 34 条；队列状态: {'processed': 635, 'resolved': 7}
+2026-11-26 20:41:02,680 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 20:41:02,689 [INFO] 发现比赛: 第二届全国人工智能应用创新大赛 人民数据OPC创业专项赛
+2026-11-26 20:41:18,608 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 20:41:18,611 [INFO] 比赛已过期或缺少有效截止日期: 2026年中国算谷人工智能大赛 deadline=2026-11-20
+2026-11-26 20:41:30,469 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 20:41:30,472 [INFO] 发现比赛: AI辅助OLED分子结构设计挑战赛
+2026-11-26 20:41:43,512 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 20:41:43,514 [INFO] 比赛已过期或缺少有效截止日期: 第五届琶洲算法大赛 deadline=2026-11-25
+2026-11-26 20:41:57,283 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 20:41:57,287 [INFO] 比赛已过期或缺少有效截止日期: 琶洲算法大赛 deadline=2026-11-25
+2026-11-26 20:42:10,650 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 20:42:10,654 [INFO] 发现比赛: 第十一届全国青年人工智能创新创业大赛
+2026-11-26 20:42:11,983 [WARNING] 抓取网页失败 https://www.hebust.edu.cn/tzgg/tz/dee1d81de06e412e8390e82f44150353.htm: HTTPSConnectionPool(host='www.hebust.edu.cn', port=443): Max retries exceeded with url: /tzgg/tz/dee1d81de06e412e8390e82f44150353.htm (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2026-11-26 20:42:11,986 [INFO] 解析处理完成，本轮解析 7 条；队列状态: {'processed': 642}
+2026-11-26 20:42:13,541 [INFO] 已推送 3 个新比赛
+2026-11-26 20:42:13,541 [INFO] ========== 本轮结束 ==========
