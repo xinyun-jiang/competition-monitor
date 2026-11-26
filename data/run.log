@@ -2849,3 +2849,22 @@
 2026-11-25 20:48:52,943 [INFO] 解析处理完成，本轮解析 3 条；队列状态: {'processed': 630}
 2026-11-25 20:48:52,944 [INFO] 本轮没有新比赛，不推送
 2026-11-25 20:48:52,944 [INFO] ========== 本轮结束 ==========
+2026-11-26 10:28:53,838 [INFO] ========== 本轮开始 ==========
+2026-11-26 10:28:53,843 [INFO] seed_urls 来源发现 1 条
+2026-11-26 10:29:02,431 [INFO] seed_pages 来源发现 1 条
+2026-11-26 10:29:02,433 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-26 10:29:22,107 [INFO] qianfan_search 来源发现 23 条
+2026-11-26 10:29:22,130 [INFO] 多来源发现完成，本轮入队/刷新 25 条；队列状态: {'processed': 630, 'resolved': 5}
+2026-11-26 10:29:40,495 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:29:40,506 [INFO] 发现比赛: 第二届石油和化工行业人工智能创新大赛
+2026-11-26 10:29:45,979 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:29:45,981 [INFO] LLM 判定非比赛: AI改变跑步
+2026-11-26 10:29:57,650 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:29:57,654 [INFO] 发现比赛: 第五届琶洲算法大赛
+2026-11-26 10:30:13,287 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:30:13,291 [INFO] 发现比赛: 2026“故宫以东”完美世界文创校园设计大赛
+2026-11-26 10:30:27,528 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-26 10:30:27,532 [INFO] 发现比赛: 贵安新区智能体应用大赛暨第三届贵阳大数据科创城创新创业应用大赛
+2026-11-26 10:30:27,533 [INFO] 解析处理完成，本轮解析 5 条；队列状态: {'processed': 635}
+2026-11-26 10:30:29,076 [INFO] 已推送 2 个新比赛
+2026-11-26 10:30:29,076 [INFO] ========== 本轮结束 ==========
