@@ -2890,3 +2890,20 @@
 2026-11-26 20:42:11,986 [INFO] 解析处理完成，本轮解析 7 条；队列状态: {'processed': 642}
 2026-11-26 20:42:13,541 [INFO] 已推送 3 个新比赛
 2026-11-26 20:42:13,541 [INFO] ========== 本轮结束 ==========
+2026-11-27 10:32:08,444 [INFO] ========== 本轮开始 ==========
+2026-11-27 10:32:08,448 [INFO] seed_urls 来源发现 1 条
+2026-11-27 10:32:37,999 [INFO] seed_pages 来源发现 1 条
+2026-11-27 10:32:38,012 [INFO] 千帆来源：本轮搜索 15 个 query，每个最多 5 条
+2026-11-27 10:32:57,434 [INFO] qianfan_search 来源发现 26 条
+2026-11-27 10:32:57,452 [INFO] 多来源发现完成，本轮入队/刷新 28 条；队列状态: {'processed': 642, 'resolved': 4}
+2026-11-27 10:33:09,920 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-27 10:33:09,926 [INFO] 发现比赛: PLC程序设计大赛暨储能技术设计大赛
+2026-11-27 10:33:27,724 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-27 10:33:27,728 [INFO] 发现比赛: 第三届福建省青少年人工智能创新赛
+2026-11-27 10:33:35,814 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-27 10:33:35,816 [INFO] LLM 判定非比赛: 重庆邮电大学-华为“数据存储智能体探索者”训练营启动招募
+2026-11-27 10:33:47,056 [INFO] HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 200 OK"
+2026-11-27 10:33:47,058 [INFO] 比赛已过期或缺少有效截止日期: 第六届合肥工业大学宣城校区新能源电池设计与制作大赛 deadline=2025-12-01
+2026-11-27 10:33:47,060 [INFO] 解析处理完成，本轮解析 4 条；队列状态: {'processed': 646}
+2026-11-27 10:33:48,611 [INFO] 已推送 1 个新比赛
+2026-11-27 10:33:48,611 [INFO] ========== 本轮结束 ==========
